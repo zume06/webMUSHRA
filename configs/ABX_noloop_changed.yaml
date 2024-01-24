@@ -2,7 +2,7 @@
 
 
 testname: Instrumental Similarity ABX Test
-testId: abx_noloop_changed
+testId: abx_noloop
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -12,19 +12,19 @@ remoteService: service/write.php
 pages:
 
     - type: paired_comparison_changed
-      id: ABX_4Q_5A
+      id: trialAB2
       name: Instrumental Similarity Test
-      content: '<li>初めに一番上にある楽器音を聴いて下さい。これをSound Xとします。<br>
-                続けて、下2つの楽器音A,Bも聴いてください<br>
+      content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br>
                 <b>楽器音は全て必ず最後まで聞いてください</b>
             </li>
-            <li>そして、その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<b>XはAとBのどちらに近いか</b>を、<b>Xの位置を選択することで</b>回答してください。<br>
-                例えば、<b>A</b>に近いと<b>強く</b>感じる場合は、<b>一番左</b>のボタンを選択してください。<b>B</b>に近いと<b>少し</b>感じる場合は<b>右から2番目</b>のボタンを選択してください。<br>
-                <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、選択を真ん中から動かす必要はありません。</b><br>
-                また、A,Bどちらも同じくらいXと似ている/似ていない場合も真ん中を選択することができますが、<b>3つの要素全てにおいて真ん中という回答はできません</b>。<br>
+            <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br>
+            Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
+            Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br>
+            <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br>
+            また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br>
 
             </li>
-            <li>選択を終えたら"next"ボタンを押し、次の実験に進んで下さい。</li>'
+            <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
       showWaveform: true
       enableLooping: false 
       reference: configs/resources/audio/mono_ref.wav
