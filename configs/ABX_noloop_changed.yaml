@@ -2,7 +2,7 @@
 
 
 testname: Instrumental Similarity ABX Test
-testId: abx_noloop
+testId: abx_changed
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
