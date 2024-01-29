@@ -98,7 +98,10 @@ $input = array("session_test_id");
 for($i =0; $i < $length; $i++){
 	array_push($input, $session->participant->name[$i]);
 }
-array_push($input, "trial_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment");
+//array_push($input, "trial_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment");
+//array_push($pcCsvData, $input);
+
+array_push($input, "trial_id", "choice_answerTimber", "choice_answerRhythm", "choice_answerMelody", "choice_answerTotal", "choice_time");
 array_push($pcCsvData, $input);
 
 
@@ -129,7 +132,7 @@ foreach ($session->trials as $trial) {
 		for($i =0; $i < $length; $i++){
 			array_push($results, $session->participant->response[$i]);
 		}  
-		array_push($results, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment);
+		array_push($results, $trial->id, $response->answerTimber, $response->answerRhythm, $response->answerMelody, $response->answerTotal, $response->time);
 	  
 	  	array_push($pcCsvData, $results); 
 		  
