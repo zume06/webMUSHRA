@@ -12,7 +12,7 @@ remoteService: service/write.php
 pages:
 
     - type: paired_comparison_changed
-      id: trialAB2
+      id: test20240130
       name: Instrumental Similarity Test
       content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br>
                 <b>楽器音は全て必ず最後まで聞いてください</b>
@@ -27,11 +27,18 @@ pages:
             <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
       showWaveform: true
       enableLooping: false 
-      reference: configs/resources/audio/mono_ref.wav
-      stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+      reference: 
+          X1: configs/resources/audio/set1/drums_X/cut2003_153.wav
+          X2: configs/resources/audio/set1/drums_X/cut2003_153.wav
+          X3: configs/resources/audio/set1/drums_X/cut2046_71.wav
+      sampleA:
+          A1: configs/resources/audio/set1/drums_A/cut2003_109.wav
+          A2: configs/resources/audio/set1/drums_A/cut2030_92.wav
+          A3: configs/resources/audio/set1/drums_A/cut2046_150.wav
+      sampleB:
+          B1: configs/resources/audio/set1/drums_B/cut2063_265.wav
+          B2: configs/resources/audio/set1/drums_B/cut1893_107.wav
+          B3: configs/resources/audio/set1/drums_B/cut2030_176.wav
 
 
     - type: finish
