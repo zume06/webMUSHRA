@@ -112,6 +112,7 @@ def main():
                         sf.write(path_o, inst_wav_cut, sr)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["ID"] = int(sample)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["seg"] = int(seg)
+                        dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["filename"] = "{}_{}-{}.wav".format(track[i], X, seg)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["sr"] = int(sr)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["index_s"] = int(seg * hop_size)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["index_t"] = int(seg * hop_size + one_seg_len)

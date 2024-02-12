@@ -1,0 +1,146 @@
+testname: Instrumental Similarity ABX Test
+testId: abx_changed
+bufferSize: 2048
+stopOnErrors: true
+showButtonPreviousPage: true
+remoteService: service/write.php
+pages:
+- type: paired_comparison_changed
+  id: test0212
+  name: Instrumental Similarity Test
+  content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li>
+    <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
+    Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br>
+    <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br> また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br>
+    </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li>
+    <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
+  showWaveform: true
+  enableLooping: false
+  reference:
+    X1: configs/2024sp/resources/X_1882-48.wav
+    X2: configs/2024sp/resources/X_1882-51.wav
+    X3: configs/2024sp/resources/X_1882-44.wav
+    X4: configs/2024sp/resources/X_1882-9.wav
+    X5: configs/2024sp/resources/X_1882-51.wav
+    X6: configs/2024sp/resources/X_1882-48.wav
+    X7: configs/2024sp/resources/X_1882-51.wav
+    X8: configs/2024sp/resources/X_1882-44.wav
+    X9: configs/2024sp/resources/X_1882-9.wav
+    X10: configs/2024sp/resources/X_1882-51.wav
+    X11: configs/2024sp/resources/X_1900-43.wav
+    X12: configs/2024sp/resources/X_1900-33.wav
+    X13: configs/2024sp/resources/X_1900-33.wav
+    X14: configs/2024sp/resources/X_1900-34.wav
+    X15: configs/2024sp/resources/X_1900-24.wav
+    X16: configs/2024sp/resources/X_1900-43.wav
+    X17: configs/2024sp/resources/X_1900-33.wav
+    X18: configs/2024sp/resources/X_1900-33.wav
+    X19: configs/2024sp/resources/X_1900-34.wav
+    X20: configs/2024sp/resources/X_1900-24.wav
+    X21: configs/2024sp/resources/X_2019-12.wav
+    X22: configs/2024sp/resources/X_2019-33.wav
+    X23: configs/2024sp/resources/X_2019-38.wav
+    X24: configs/2024sp/resources/X_2019-53.wav
+    X25: configs/2024sp/resources/X_2019-5.wav
+    X26: configs/2024sp/resources/X_2019-12.wav
+    X27: configs/2024sp/resources/X_2019-33.wav
+    X28: configs/2024sp/resources/X_2019-38.wav
+    X29: configs/2024sp/resources/X_2019-53.wav
+    X30: configs/2024sp/resources/X_2019-5.wav
+    X31: configs/2024sp/resources/X_2030-39.wav
+    X32: configs/2024sp/resources/X_2030-44.wav
+    X33: configs/2024sp/resources/X_2030-56.wav
+    X34: configs/2024sp/resources/X_2030-27.wav
+    X35: configs/2024sp/resources/X_2030-46.wav
+    X36: configs/2024sp/resources/X_2030-39.wav
+    X37: configs/2024sp/resources/X_2030-44.wav
+    X38: configs/2024sp/resources/X_2030-56.wav
+    X39: configs/2024sp/resources/X_2030-27.wav
+    X40: configs/2024sp/resources/X_2030-46.wav
+  sampleA:
+    A1: configs/2024sp/resources/Y_1882-19.wav
+    A2: configs/2024sp/resources/C_1882-49.wav
+    A3: configs/2024sp/resources/C_1882-14.wav
+    A4: configs/2024sp/resources/Y_1882-55.wav
+    A5: configs/2024sp/resources/Y_1882-14.wav
+    A6: configs/2024sp/resources/A_1882-72.wav
+    A7: configs/2024sp/resources/A_1882-72.wav
+    A8: configs/2024sp/resources/A_1882-44.wav
+    A9: configs/2024sp/resources/A_1882-68.wav
+    A10: configs/2024sp/resources/A_1882-9.wav
+    A11: configs/2024sp/resources/C_1900-33.wav
+    A12: configs/2024sp/resources/Y_1900-50.wav
+    A13: configs/2024sp/resources/C_1900-34.wav
+    A14: configs/2024sp/resources/Y_1900-21.wav
+    A15: configs/2024sp/resources/Y_1900-26.wav
+    A16: configs/2024sp/resources/A_1900-61.wav
+    A17: configs/2024sp/resources/A_1900-44.wav
+    A18: configs/2024sp/resources/A_1900-83.wav
+    A19: configs/2024sp/resources/A_1900-4.wav
+    A20: configs/2024sp/resources/A_1900-74.wav
+    A21: configs/2024sp/resources/Y_2019-36.wav
+    A22: configs/2024sp/resources/C_2019-21.wav
+    A23: configs/2024sp/resources/C_2019-5.wav
+    A24: configs/2024sp/resources/C_2019-1.wav
+    A25: configs/2024sp/resources/C_2019-14.wav
+    A26: configs/2024sp/resources/A_2019-36.wav
+    A27: configs/2024sp/resources/A_2019-21.wav
+    A28: configs/2024sp/resources/A_2019-2.wav
+    A29: configs/2024sp/resources/A_2019-32.wav
+    A30: configs/2024sp/resources/A_2019-22.wav
+    A31: configs/2024sp/resources/Y_2030-26.wav
+    A32: configs/2024sp/resources/Y_2030-29.wav
+    A33: configs/2024sp/resources/C_2030-41.wav
+    A34: configs/2024sp/resources/Y_2030-38.wav
+    A35: configs/2024sp/resources/Y_2030-22.wav
+    A36: configs/2024sp/resources/A_2030-40.wav
+    A37: configs/2024sp/resources/A_2030-15.wav
+    A38: configs/2024sp/resources/A_2030-30.wav
+    A39: configs/2024sp/resources/A_2030-31.wav
+    A40: configs/2024sp/resources/A_2030-7.wav
+  sampleB:
+    B1: configs/2024sp/resources/C_1882-23.wav
+    B2: configs/2024sp/resources/Y_1882-31.wav
+    B3: configs/2024sp/resources/Y_1882-19.wav
+    B4: configs/2024sp/resources/C_1882-7.wav
+    B5: configs/2024sp/resources/C_1882-22.wav
+    B6: configs/2024sp/resources/B_1882-35.wav
+    B7: configs/2024sp/resources/B_1882-26.wav
+    B8: configs/2024sp/resources/B_1882-51.wav
+    B9: configs/2024sp/resources/B_1882-28.wav
+    B10: configs/2024sp/resources/B_1882-46.wav
+    B11: configs/2024sp/resources/Y_1900-47.wav
+    B12: configs/2024sp/resources/C_1900-54.wav
+    B13: configs/2024sp/resources/Y_1900-49.wav
+    B14: configs/2024sp/resources/C_1900-16.wav
+    B15: configs/2024sp/resources/C_1900-56.wav
+    B16: configs/2024sp/resources/B_1900-32.wav
+    B17: configs/2024sp/resources/B_1900-26.wav
+    B18: configs/2024sp/resources/B_1900-39.wav
+    B19: configs/2024sp/resources/B_1900-25.wav
+    B20: configs/2024sp/resources/B_1900-39.wav
+    B21: configs/2024sp/resources/C_2019-23.wav
+    B22: configs/2024sp/resources/Y_2019-19.wav
+    B23: configs/2024sp/resources/Y_2019-27.wav
+    B24: configs/2024sp/resources/Y_2019-32.wav
+    B25: configs/2024sp/resources/Y_2019-21.wav
+    B26: configs/2024sp/resources/B_2019-47.wav
+    B27: configs/2024sp/resources/B_2019-23.wav
+    B28: configs/2024sp/resources/B_2019-38.wav
+    B29: configs/2024sp/resources/B_2019-3.wav
+    B30: configs/2024sp/resources/B_2019-4.wav
+    B31: configs/2024sp/resources/C_2030-13.wav
+    B32: configs/2024sp/resources/C_2030-20.wav
+    B33: configs/2024sp/resources/Y_2030-48.wav
+    B34: configs/2024sp/resources/C_2030-36.wav
+    B35: configs/2024sp/resources/C_2030-18.wav
+    B36: configs/2024sp/resources/B_2030-2.wav
+    B37: configs/2024sp/resources/B_2030-33.wav
+    B38: configs/2024sp/resources/B_2030-26.wav
+    B39: configs/2024sp/resources/B_2030-40.wav
+    B40: configs/2024sp/resources/B_2030-22.wav
+- type: finish
+  name: Thank you
+  content: Thank you for attending
+  showResults: true
+  writeResults: true
