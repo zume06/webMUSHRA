@@ -101,7 +101,7 @@ for($i =0; $i < $length; $i++){
 //array_push($input, "trial_id", "choice_reference", "choice_non_reference", "choice_answer", "choice_time", "choice_comment");
 //array_push($pcCsvData, $input);
 
-array_push($input, "trial_id", "choice_answerTimbre", "choice_answerRhythm", "choice_answerMelody", "choice_answerTotal", "choice_time");
+array_push($input, "trial_id", "Reference", "SampleA", "SampleB", "choice_answerTimbre", "choice_answerRhythm", "choice_answerMelody", "choice_answerTotal", "choice_time");
 array_push($pcCsvData, $input);
 
 
@@ -132,7 +132,7 @@ foreach ($session->trials as $trial) {
 		for($i =0; $i < $length; $i++){
 			array_push($results, $session->participant->response[$i]);
 		}  
-		array_push($results, $trial->id, $response->answerTimbre, $response->answerRhythm, $response->answerMelody, $response->answerTotal, $response->time);
+		array_push($results, $trial->id,$response->Reference,$response->SampleA,$response->SampleB, urlencode($response->answerTimbre), urlencode($response->answerRhythm), urlencode($response->answerMelody), urlencode($response->answerTotal), $response->time);
 	  
 	  	array_push($pcCsvData, $results); 
 		  
