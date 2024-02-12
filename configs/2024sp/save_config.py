@@ -31,9 +31,9 @@ for k in range(setnum):
                     A = dict_triplet[str(k)][str(l)]["test{}".format(test)][inst]["A"]["filename"]
                     B = dict_triplet[str(k)][str(l)]["test{}".format(test)][inst]["B"]["filename"]
                         
-                references["X{}".format(count)]= "configs/2024sp/resources/{}".format(X)
-                samplesA["A{}".format(count)]= "configs/2024sp/resources/{}".format(A)
-                samplesB["B{}".format(count)]= "configs/2024sp/resources/{}".format(B)
+                references["X{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, X)
+                samplesA["A{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, A)
+                samplesB["B{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, B)
                 count = count + 1
     references["X{}".format(count)]= "configs/2024sp/resources/samples/dummyX1.wav"
     samplesA["A{}".format(count)]= "configs/2024sp/resources/samples/dummyX1.wav"
@@ -72,7 +72,7 @@ for k in range(setnum):
             "id": "vol",
             "name": "音量調整",
             "defaultVolume": 0.5,
-            "stimulus": "./resources/samples/voleme_sample.wav",            
+            "stimulus": "configs/2024sp/resources/samples/voleme_sample.wav",            
             },
             {"type": "paired_comparison_changed",
             "id": "test0212",
