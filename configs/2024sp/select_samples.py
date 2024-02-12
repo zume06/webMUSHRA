@@ -109,7 +109,8 @@ def main():
                             seg_X[inst] = seg
                         os.makedirs("./resources/set{}/{}/{}/".format(k, inst, l), exist_ok=True)
                         path_o = "./resources/set{}/{}/{}/{}_{}-{}.wav".format(k, inst, l, track[i], X, seg)
-                        sf.write(path_o, inst_wav_cut, sr)
+                        inst_wav_cut_stereo = np.vstack((inst_wav_cut, inst_wav_cut))
+                        sf.write(path_o, inst_wav_cut_stereo.T, sr)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["ID"] = int(sample)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["seg"] = int(seg)
                         dict_triplet[k][l]["test{}".format(test)][inst][track[i]]["filename"] = "{}_{}-{}.wav".format(track[i], X, seg)
