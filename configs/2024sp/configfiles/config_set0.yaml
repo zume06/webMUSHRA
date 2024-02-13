@@ -13,6 +13,11 @@ pages:
   content: <li>最初にアンケートのご協力をお願いいたします。</li> <li>何か演奏することができる楽器がありますか？</li>
   id: enq
   name: 楽器演奏に関するアンケート
+- type: finish
+  name: Thank you
+  content: 'アンケートご回答ありがとうございます。これから実験手順に進みます。'
+  showResults: false
+  writeResults: true
 - type: generic
   content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
