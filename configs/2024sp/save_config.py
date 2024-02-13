@@ -72,7 +72,7 @@ for k in range(setnum):
             {"type": "generic",
             "content": explain,
             "id": "Top_page",
-            "name": "Instrumental Similarity Test",
+            "name": "実験手順（必ず最後までお読みください）",
             },
             {"type": "volume",
             "content": "音量を調整してください．このサンプルはベース音の例です.",

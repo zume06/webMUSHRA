@@ -21,7 +21,7 @@ pages:
     </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li>
     <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
   id: Top_page
-  name: Instrumental Similarity Test
+  name: '実験手順（必ず最後までお読みください）'
 - type: volume
   content: 音量を調整してください．このサンプルはベース音の例です.
   id: vol
