@@ -9,6 +9,10 @@ pages:
   content: 楽器音類似度に関する評価実験にご参加いただきありがとうございます.<br> 実験終了後に，支払いのためのクラウドワークスIDの入力を求められますので，忘れずにご記入ください．
   id: first_page
   name: Welcome
+- type: enquete
+  content: <li>最初にアンケートのご協力をお願いいたします。</li> <li>何か演奏することができる楽器がありますか？</li>
+  id: enq
+  name: 楽器演奏に関するアンケート
 - type: generic
   content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
@@ -164,10 +168,6 @@ pages:
     B40: configs/2024sp/resources/set0/residuals/3/B_1981-11.wav
     B41: configs/2024sp/resources/samples/dummyB1.wav
     B42: configs/2024sp/resources/samples/dummyX2.wav
-- type: enquete
-  content: <li>最後にアンケートのご協力をお願いいたします。</li> <li>何か演奏することができる楽器がありますか？</li>
-  id: enq
-  name: 楽器演奏に関するアンケート
 - type: finish
   name: Thank you
   content: Thank you for attending
