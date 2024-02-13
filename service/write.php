@@ -140,6 +140,23 @@ foreach ($session->trials as $trial) {
 	    // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
 	  }
   }
+  else if ($trial->type == "enquete") {
+	  foreach ($trial->responses as $response) {	  	
+	  	$write_pc = true;
+		  
+		 
+		$results = array($session->testId);
+		for($i =0; $i < $length; $i++){
+			array_push($results, $session->participant->response[$i]);
+		}  
+		array_push($results, $trial->id,$response);
+	  
+	  	array_push($pcCsvData, $results); 
+		  
+		  
+	    // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
+	  }
+  }
 }
 
 if ($write_pc) {
