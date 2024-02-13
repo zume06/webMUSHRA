@@ -98,7 +98,7 @@ for k in range(setnum):
             {"type": "finish",
             "name": "Thank you",
             "content": "Thank you for attending",
-            "showResults": True,
+            "showResults": False,
             "writeResults": True,}
             
         ]

@@ -51,5 +51,5 @@ pages:
 - type: finish
   name: Thank you
   content: Thank you for attending
-  showResults: true
+  showResults: false
   writeResults: true
