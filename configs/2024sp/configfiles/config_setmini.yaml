@@ -50,6 +50,10 @@ pages:
     B2: configs/2024sp/resources/set0/bass/0/C_2088-51.wav
 - type: finish
   name: Thank you
-  content: Thank you for attending
-  showResults: false
+  content: ご協力ありがとうございました！.<br> <b>支払いのため，以下にクラウドワークスIDの入力をお願いします．<b>
+  questionnaire:
+      - label: Worker Id
+        name: workerId
+        type: text
+  showResults: true
   writeResults: true

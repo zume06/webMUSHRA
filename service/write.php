@@ -33,8 +33,14 @@ $session = json_decode($sessionParam);
 $filepathPrefix = "../results/".sanitize($string = $session->testId, $is_filename =FALSE)."/";
 $filepathPostfix = ".csv";
 
+$filepathPreCount = "../counts/";
+$filepathPostCount = ".csv";
+
 if (!is_dir($filepathPrefix)) {
     mkdir($filepathPrefix);
+}
+if (!is_dir($filepathPreCount)) {
+    mkdir($filepathPreCount);
 }
 $length = count($session->participant->name);
 // mushra
@@ -157,6 +163,21 @@ foreach ($session->trials as $trial) {
 	    // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
 	  }
   }
+  else if ($trial->type == "get_set_num") {
+	foreach ($trial->responses as $response) {	  	
+		$write_count = true;
+		
+	  $count = array($session->testId);
+	  for($i =0; $i < $length; $i++){
+		  array_push($count, $session->participant->response[$i]);
+	  }  
+	  array_push($count, $trial->id,$response);
+	  array_push($pcCsvData, $count); 
+		
+		
+	  // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
+	}
+}
 }
 
 if ($write_pc) {
@@ -504,6 +525,22 @@ foreach ($session->trials as $trial) {
 
 if ($write_spatial_lev) {
     $filename = $filepathPrefix."spatial_lev".$filepathPostfix;
+    $isFile = is_file($filename);
+    $fp = fopen($filename, 'a');
+    foreach ($spatial_levData as $row) {
+        if ($isFile) {          
+            $isFile = false;
+        } else {
+           fputcsv($fp, $row);
+        }
+    }
+    fclose($fp);
+
+
+}
+
+if ($write_count) {
+    $filename = $filepathPreCount."spatial_lev".$filepathPostCount;
     $isFile = is_file($filename);
     $fp = fopen($filename, 'a');
     foreach ($spatial_levData as $row) {
