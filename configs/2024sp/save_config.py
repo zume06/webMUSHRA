@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 import json
 import yaml
 import random
@@ -46,11 +45,11 @@ for k in range(setnum):
 
         
     explain = '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li> <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br> Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br> <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br> また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br> </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li> <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
-    enquete = '<li>最初にアンケートのご協力をお願いいたします。</li> <li>何か演奏することができる楽器がありますか？</li>'
+    enquete = '<li>最後にアンケートのご協力をお願いいたします。</li> <li>何か演奏することができる楽器がありますか？</li>'
     
     config = {
         "testname": "Instrumental Similarity ABX Test",
-        "testId": "test{}".format(k),
+        "testId": "abx_changed",
         "bufferSize": 2048,
         "stopOnErrors": True,
         "showButtonPreviousPage": True,
@@ -64,16 +63,10 @@ for k in range(setnum):
             "id": "first_page",
             "name": "Welcome",
             },
-            {
-            "type": "enquete",
-            "content": enquete,
-            "id": "enq",
-            "name": "楽器演奏に関するアンケート",
-            },
             {"type": "generic",
             "content": explain,
             "id": "Top_page",
-            "name": "実験手順（必ず最後までお読みください）",
+            "name": "Instrumental Similarity Test",
             },
             {"type": "volume",
             "content": "音量を調整してください．このサンプルはベース音の例です.",
@@ -83,7 +76,7 @@ for k in range(setnum):
             "stimulus": "configs/2024sp/resources/samples/voleme_sample.wav",            
             },
             {"type": "paired_comparison_changed",
-            "id": "ABX",
+            "id": "test0212",
             "name": "Instrumental Similarity Test",
             "content": explain,
             "showWaveform": True,
@@ -95,10 +88,20 @@ for k in range(setnum):
             "sampleB":
                 samplesB,}
             ,
+            {
+            "type": "enquete",
+            "content": enquete,
+            "id": "enq",
+            "name": "楽器演奏に関するアンケート",
+            },
             {"type": "finish",
             "name": "Thank you",
-            "content": "Thank you for attending",
-            "showResults": False,
+            "content": "ご協力ありがとうございました！.<br> <b>支払いのため，以下にクラウドワークスIDの入力をお願いします．<b>",
+            "questionnaire":
+                {"label": "Worker Id",
+                "name": "workerId",
+                "type": "text"},
+            "showResults": True,
             "writeResults": True,}
             
         ]
