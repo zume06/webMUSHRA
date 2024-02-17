@@ -166,22 +166,11 @@ foreach ($session->trials as $trial) {
 	  }
   }
   else if ($trial->type == "get_set_num") {
-	echo $trial->type;
-	$getCsvData = array();
-	foreach ($trial->responses as $response) {	  	
-		$write_count = true;
-		
-	  $count = array($session->testId);
-	  for($i =0; $i < $length; $i++){
-		  array_push($count, $session->participant->response[$i]);
-	  }  
-	  array_push($count, $trial->id,$response);
-	  array_push($getCsvData, $count); 
-		
-		
+	//echo $trial->type;
+	$getData = $trial->responses;
+	$write_count = true;
 	  // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
 	}
-}
 }
 
 if ($write_pc) {
@@ -546,17 +535,18 @@ if ($write_spatial_lev) {
 
 if ($write_count) {
     $filename = $filepathPreCount."counts".$filepathPostCount;
-	echo $filename;
+	//echo $filename;
+	echo $getData;
+	$getCsvData = array();
+	//$getCsvData[] = strval($getData);
     $isFile = is_file($filename);
-    $fp = fopen($filename, 'a');
-	#print_r($getCsvData);
-    foreach ($getCsvData as $row) {
-		print_r($row);
-        fputcsv($fp, $row);
-    }
-    fclose($fp);
-
-
+	$fp = fopen($filename, 'a');
+	if ($isFile) {          
+		$isFile = false;
+	} else {
+	   fputcsv($fp, $getCsvData);
+	}
+	fclose($fp);
 
 }
 
