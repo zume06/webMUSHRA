@@ -40,8 +40,10 @@ if (!is_dir($filepathPrefix)) {
     mkdir($filepathPrefix);
 }
 if (!is_dir($filepathPreCount)) {
+	echo $filepathPreCount;
     mkdir($filepathPreCount);
 }
+echo $trial->type;
 $length = count($session->participant->name);
 // mushra
 $write_mushra = false;
@@ -164,6 +166,8 @@ foreach ($session->trials as $trial) {
 	  }
   }
   else if ($trial->type == "get_set_num") {
+	echo $trial->type;
+	$getCsvData = array();
 	foreach ($trial->responses as $response) {	  	
 		$write_count = true;
 		
@@ -172,7 +176,7 @@ foreach ($session->trials as $trial) {
 		  array_push($count, $session->participant->response[$i]);
 	  }  
 	  array_push($count, $trial->id,$response);
-	  array_push($pcCsvData, $count); 
+	  array_push($getCsvData, $count); 
 		
 		
 	  // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
@@ -279,6 +283,7 @@ if($write_lms){
 		if ($isFile){
 			$isFile = false; 
 		} else {
+			echo $isFile;
 			fputcsv($fp,$row);
 		}
 	}
@@ -540,17 +545,17 @@ if ($write_spatial_lev) {
 }
 
 if ($write_count) {
-    $filename = $filepathPreCount."spatial_lev".$filepathPostCount;
+    $filename = $filepathPreCount."counts".$filepathPostCount;
+	echo $filename;
     $isFile = is_file($filename);
     $fp = fopen($filename, 'a');
-    foreach ($spatial_levData as $row) {
-        if ($isFile) {          
-            $isFile = false;
-        } else {
-           fputcsv($fp, $row);
-        }
+	#print_r($getCsvData);
+    foreach ($getCsvData as $row) {
+		print_r($row);
+        fputcsv($fp, $row);
     }
     fclose($fp);
+
 
 
 }
