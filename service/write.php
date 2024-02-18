@@ -166,8 +166,11 @@ foreach ($session->trials as $trial) {
 	  }
   }
   else if ($trial->type == "get_set_num") {
-	//echo $trial->type;
-	$getData = $trial->responses;
+	echo $trial->type;
+	echo $trial->count;
+	echo $trial->userID;
+	$getData = $trial->count;
+	$getID = $trial->userID;
 	//echo $getData;
 	$write_count = true;
 	  // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
@@ -535,12 +538,19 @@ if ($write_spatial_lev) {
 }
 
 if ($write_count) {
-	$filename = $filepathPreCount."counts".$filepathPostCount;
+	//$filename = $filepathPreCount."counts".$filepathPostCount;
+	$filename = $filepathPrefix."counts".$filepathPostfix;
     //$filename = $filepathPreCount."counts".$filepathPostCount;
 	echo $getData;
 	$getCsvData = array();
-	$getCsvData[] = strval($getData);
+	array_push($getCsvData, strval($getData), $getID);
     $isFile = is_file($filename);
+	if (strval($getData)==0){
+		$indexName = array();
+		array_push($indexName, "count", "id");
+		$fp = fopen($filename, 'w');
+		fputcsv($fp, $indexName);
+	}
 	$fp = fopen($filename, 'a');
 	if ($fp) {
 		echo "Opened file.";

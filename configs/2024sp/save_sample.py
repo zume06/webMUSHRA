@@ -4,7 +4,7 @@ import numpy as np
 import json
 import random
 
-
+# ダミーと音量調整用
 def cal_avepow_1s(wave, sr, thres):
     for i in range(len(wave) // sr):
         wave1s = wave[i * sr : (i + 1) * sr]

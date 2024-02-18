@@ -65,16 +65,17 @@ function callbackURLFound() {
   $("#popupErrors").popup("open");
 }
 
-function addPagesToPageManager(_pageManager, _pages) {
+function addPagesToPageManager(_pageManager, _pages, _congif) {
   for (var i = 0; i < _pages.length; ++i) {
     if (Array.isArray(_pages[i])) {
       if (_pages[i][0] === "random") {
         _pages[i].shift();
         shuffle(_pages[i]);
       }
-      addPagesToPageManager(_pageManager, _pages[i]);
+      addPagesToPageManager(_pageManager, _pages[i], _congif);
     } else {
       var pageConfig = _pages[i];
+      var config = _congif;
       if (pageConfig.type == "generic") {
         _pageManager.addPage(new GenericPage(_pageManager, pageConfig));
       } else if (pageConfig.type == "consent") {
@@ -112,7 +113,7 @@ function addPagesToPageManager(_pageManager, _pages) {
         var finishPage = new FinishPage(_pageManager, session, dataSender, pageConfig, config.language);
         _pageManager.addPage(finishPage);
       } else if (pageConfig.type == "get_set_num") {
-        var getSetNum = new GetSetNum(_pageManager, session, dataSender, pageConfig, config.language);
+        var getSetNum = new GetSetNum(_pageManager, session, dataSender, pageConfig, config.language, config.testId);
         _pageManager.addPage(getSetNum);
       } else {
 
@@ -212,7 +213,7 @@ function startup(config) {
   pageTemplateRenderer = new PageTemplateRenderer(pageManager, config.showButtonPreviousPage, config.language);
   pageManager.addCallbackPageEventChanged(pageTemplateRenderer.refresh.bind(pageTemplateRenderer));
 
-  addPagesToPageManager(pageManager, config.pages);
+  addPagesToPageManager(pageManager, config.pages, config);
 
   interval2 = setInterval(function () {
     clearInterval(interval2);
