@@ -40,14 +40,14 @@ pages:
   showWaveform: true
   enableLooping: false
   reference:
-    X1: configs/2024sp/resources/set0/drums/0/X_2088-17.wav
-    X2: configs/2024sp/resources/set0/bass/0/X_2088-29.wav
+    X1: configs/2024sp/resources/set0/drums/0/X_2052-33.wav
+    X2: configs/2024sp/resources/set0/bass/0/X_2052-4.wav
   sampleA:
-    A1: configs/2024sp/resources/set0/drums/0/Y_2088-35.wav
-    A2: configs/2024sp/resources/set0/bass/0/Y_2088-10.wav
+    A1: configs/2024sp/resources/set0/drums/0/Y_2052-0.wav
+    A2: configs/2024sp/resources/set0/bass/0/Y_2052-44.wav
   sampleB:
-    B1: configs/2024sp/resources/set0/drums/0/C_2088-37.wav
-    B2: configs/2024sp/resources/set0/bass/0/C_2088-51.wav
+    B1: configs/2024sp/resources/set0/drums/0/C_1956-37.wav
+    B2: configs/2024sp/resources/set0/bass/0/C_1956-31.wav
 - type: finish
   name: Thank you
   content: ご協力ありがとうございました！.<br> <b>支払いのため，以下にクラウドワークスIDの入力をお願いします．<b>

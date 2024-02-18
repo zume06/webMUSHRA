@@ -4,25 +4,25 @@
             "test1": {
                 "drums": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 17,
-                        "filename": "X_2088-17.wav",
+                        "ID": 2052,
+                        "seg": 33,
+                        "filename": "X_2052-33.wav",
                         "sr": 44100,
-                        "index_s": 3725312,
-                        "index_t": 3944448
+                        "index_s": 7231488,
+                        "index_t": 7450624
                     },
                     "Y": {
-                        "ID": 2088,
-                        "seg": 35,
-                        "filename": "Y_2088-35.wav",
+                        "ID": 2052,
+                        "seg": 0,
+                        "filename": "Y_2052-0.wav",
                         "sr": 44100,
-                        "index_s": 7669760,
-                        "index_t": 7888896
+                        "index_s": 0,
+                        "index_t": 219136
                     },
                     "C": {
-                        "ID": 1886,
+                        "ID": 1956,
                         "seg": 37,
-                        "filename": "C_2088-37.wav",
+                        "filename": "C_1956-37.wav",
                         "sr": 44100,
                         "index_s": 8108032,
                         "index_t": 8327168
@@ -30,238 +30,238 @@
                 },
                 "bass": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 29,
-                        "filename": "X_2088-29.wav",
+                        "ID": 2052,
+                        "seg": 4,
+                        "filename": "X_2052-4.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 876544,
+                        "index_t": 1095680
                     },
                     "Y": {
-                        "ID": 2088,
-                        "seg": 10,
-                        "filename": "Y_2088-10.wav",
+                        "ID": 2052,
+                        "seg": 44,
+                        "filename": "Y_2052-44.wav",
                         "sr": 44100,
-                        "index_s": 2191360,
-                        "index_t": 2410496
+                        "index_s": 9641984,
+                        "index_t": 9861120
                     },
                     "C": {
-                        "ID": 1886,
-                        "seg": 51,
-                        "filename": "C_2088-51.wav",
+                        "ID": 1956,
+                        "seg": 31,
+                        "filename": "C_1956-31.wav",
                         "sr": 44100,
-                        "index_s": 11175936,
-                        "index_t": 11395072
+                        "index_s": 6793216,
+                        "index_t": 7012352
                     }
                 },
                 "piano": {
                     "X": {
-                        "ID": 2088,
+                        "ID": 2052,
+                        "seg": 40,
+                        "filename": "X_2052-40.wav",
+                        "sr": 44100,
+                        "index_s": 8765440,
+                        "index_t": 8984576
+                    },
+                    "Y": {
+                        "ID": 2052,
+                        "seg": 33,
+                        "filename": "Y_2052-33.wav",
+                        "sr": 44100,
+                        "index_s": 7231488,
+                        "index_t": 7450624
+                    },
+                    "C": {
+                        "ID": 1956,
                         "seg": 28,
-                        "filename": "X_2088-28.wav",
+                        "filename": "C_1956-28.wav",
                         "sr": 44100,
                         "index_s": 6135808,
                         "index_t": 6354944
-                    },
-                    "Y": {
-                        "ID": 2088,
-                        "seg": 34,
-                        "filename": "Y_2088-34.wav",
-                        "sr": 44100,
-                        "index_s": 7450624,
-                        "index_t": 7669760
-                    },
-                    "C": {
-                        "ID": 1886,
-                        "seg": 39,
-                        "filename": "C_2088-39.wav",
-                        "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 24,
-                        "filename": "X_2088-24.wav",
+                        "ID": 2052,
+                        "seg": 21,
+                        "filename": "X_2052-21.wav",
                         "sr": 44100,
-                        "index_s": 5259264,
-                        "index_t": 5478400
+                        "index_s": 4601856,
+                        "index_t": 4820992
                     },
                     "Y": {
-                        "ID": 2088,
-                        "seg": 35,
-                        "filename": "Y_2088-35.wav",
+                        "ID": 2052,
+                        "seg": 22,
+                        "filename": "Y_2052-22.wav",
                         "sr": 44100,
-                        "index_s": 7669760,
-                        "index_t": 7888896
+                        "index_s": 4820992,
+                        "index_t": 5040128
                     },
                     "C": {
-                        "ID": 1886,
-                        "seg": 8,
-                        "filename": "C_2088-8.wav",
+                        "ID": 1956,
+                        "seg": 10,
+                        "filename": "C_1956-10.wav",
                         "sr": 44100,
-                        "index_s": 1753088,
-                        "index_t": 1972224
+                        "index_s": 2191360,
+                        "index_t": 2410496
                     }
                 },
                 "residuals": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 29,
-                        "filename": "X_2088-29.wav",
+                        "ID": 2052,
+                        "seg": 13,
+                        "filename": "X_2052-13.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 2848768,
+                        "index_t": 3067904
                     },
                     "Y": {
-                        "ID": 2088,
-                        "seg": 39,
-                        "filename": "Y_2088-39.wav",
+                        "ID": 2052,
+                        "seg": 20,
+                        "filename": "Y_2052-20.wav",
                         "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
+                        "index_s": 4382720,
+                        "index_t": 4601856
                     },
                     "C": {
-                        "ID": 1886,
-                        "seg": 42,
-                        "filename": "C_2088-42.wav",
+                        "ID": 1956,
+                        "seg": 11,
+                        "filename": "C_1956-11.wav",
                         "sr": 44100,
-                        "index_s": 9203712,
-                        "index_t": 9422848
+                        "index_s": 2410496,
+                        "index_t": 2629632
                     }
                 }
             },
             "test2": {
                 "drums": {
                     "X": {
-                        "ID": 2088,
+                        "ID": 2052,
+                        "seg": 33,
+                        "filename": "X_2052-33.wav",
+                        "sr": 44100,
+                        "index_s": 7231488,
+                        "index_t": 7450624
+                    },
+                    "A": {
+                        "ID": 1981,
                         "seg": 17,
-                        "filename": "X_2088-17.wav",
+                        "filename": "A_1981-17.wav",
                         "sr": 44100,
                         "index_s": 3725312,
                         "index_t": 3944448
                     },
-                    "A": {
-                        "ID": 1929,
-                        "seg": 12,
-                        "filename": "A_2088-12.wav",
-                        "sr": 44100,
-                        "index_s": 2629632,
-                        "index_t": 2848768
-                    },
                     "B": {
-                        "ID": 2000,
-                        "seg": 29,
-                        "filename": "B_2088-29.wav",
+                        "ID": 1899,
+                        "seg": 9,
+                        "filename": "B_1899-9.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 1972224,
+                        "index_t": 2191360
                     }
                 },
                 "bass": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 29,
-                        "filename": "X_2088-29.wav",
-                        "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
-                    },
-                    "A": {
-                        "ID": 1929,
+                        "ID": 2052,
                         "seg": 4,
-                        "filename": "A_2088-4.wav",
+                        "filename": "X_2052-4.wav",
                         "sr": 44100,
                         "index_s": 876544,
                         "index_t": 1095680
                     },
-                    "B": {
-                        "ID": 2000,
-                        "seg": 5,
-                        "filename": "B_2088-5.wav",
+                    "A": {
+                        "ID": 1981,
+                        "seg": 52,
+                        "filename": "A_1981-52.wav",
                         "sr": 44100,
-                        "index_s": 1095680,
-                        "index_t": 1314816
+                        "index_s": 11395072,
+                        "index_t": 11614208
+                    },
+                    "B": {
+                        "ID": 1899,
+                        "seg": 14,
+                        "filename": "B_1899-14.wav",
+                        "sr": 44100,
+                        "index_s": 3067904,
+                        "index_t": 3287040
                     }
                 },
                 "piano": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 28,
-                        "filename": "X_2088-28.wav",
+                        "ID": 2052,
+                        "seg": 40,
+                        "filename": "X_2052-40.wav",
                         "sr": 44100,
-                        "index_s": 6135808,
-                        "index_t": 6354944
+                        "index_s": 8765440,
+                        "index_t": 8984576
                     },
                     "A": {
-                        "ID": 1929,
-                        "seg": 28,
-                        "filename": "A_2088-28.wav",
+                        "ID": 1981,
+                        "seg": 3,
+                        "filename": "A_1981-3.wav",
                         "sr": 44100,
-                        "index_s": 6135808,
-                        "index_t": 6354944
+                        "index_s": 657408,
+                        "index_t": 876544
                     },
                     "B": {
-                        "ID": 2000,
-                        "seg": 26,
-                        "filename": "B_2088-26.wav",
+                        "ID": 1899,
+                        "seg": 21,
+                        "filename": "B_1899-21.wav",
                         "sr": 44100,
-                        "index_s": 5697536,
-                        "index_t": 5916672
+                        "index_s": 4601856,
+                        "index_t": 4820992
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 24,
-                        "filename": "X_2088-24.wav",
+                        "ID": 2052,
+                        "seg": 21,
+                        "filename": "X_2052-21.wav",
                         "sr": 44100,
-                        "index_s": 5259264,
-                        "index_t": 5478400
+                        "index_s": 4601856,
+                        "index_t": 4820992
                     },
                     "A": {
-                        "ID": 1929,
-                        "seg": 38,
-                        "filename": "A_2088-38.wav",
+                        "ID": 1981,
+                        "seg": 15,
+                        "filename": "A_1981-15.wav",
                         "sr": 44100,
-                        "index_s": 8327168,
-                        "index_t": 8546304
+                        "index_s": 3287040,
+                        "index_t": 3506176
                     },
                     "B": {
-                        "ID": 2000,
-                        "seg": 34,
-                        "filename": "B_2088-34.wav",
+                        "ID": 1899,
+                        "seg": 17,
+                        "filename": "B_1899-17.wav",
                         "sr": 44100,
-                        "index_s": 7450624,
-                        "index_t": 7669760
+                        "index_s": 3725312,
+                        "index_t": 3944448
                     }
                 },
                 "residuals": {
                     "X": {
-                        "ID": 2088,
-                        "seg": 29,
-                        "filename": "X_2088-29.wav",
+                        "ID": 2052,
+                        "seg": 13,
+                        "filename": "X_2052-13.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 2848768,
+                        "index_t": 3067904
                     },
                     "A": {
-                        "ID": 1929,
-                        "seg": 43,
-                        "filename": "A_2088-43.wav",
+                        "ID": 1981,
+                        "seg": 33,
+                        "filename": "A_1981-33.wav",
                         "sr": 44100,
-                        "index_s": 9422848,
-                        "index_t": 9641984
+                        "index_s": 7231488,
+                        "index_t": 7450624
                     },
                     "B": {
-                        "ID": 2000,
-                        "seg": 14,
-                        "filename": "B_2088-14.wav",
+                        "ID": 1899,
+                        "seg": 16,
+                        "filename": "B_1899-16.wav",
                         "sr": 44100,
-                        "index_s": 3067904,
-                        "index_t": 3287040
+                        "index_s": 3506176,
+                        "index_t": 3725312
                     }
                 }
             }
@@ -270,264 +270,264 @@
             "test1": {
                 "drums": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 45,
-                        "filename": "X_2016-45.wav",
-                        "sr": 44100,
-                        "index_s": 9861120,
-                        "index_t": 10080256
-                    },
-                    "Y": {
-                        "ID": 2016,
-                        "seg": 12,
-                        "filename": "Y_2016-12.wav",
-                        "sr": 44100,
-                        "index_s": 2629632,
-                        "index_t": 2848768
-                    },
-                    "C": {
-                        "ID": 2092,
-                        "seg": 4,
-                        "filename": "C_2016-4.wav",
-                        "sr": 44100,
-                        "index_s": 876544,
-                        "index_t": 1095680
-                    }
-                },
-                "bass": {
-                    "X": {
-                        "ID": 2016,
-                        "seg": 47,
-                        "filename": "X_2016-47.wav",
-                        "sr": 44100,
-                        "index_s": 10299392,
-                        "index_t": 10518528
-                    },
-                    "Y": {
-                        "ID": 2016,
-                        "seg": 44,
-                        "filename": "Y_2016-44.wav",
-                        "sr": 44100,
-                        "index_s": 9641984,
-                        "index_t": 9861120
-                    },
-                    "C": {
-                        "ID": 2092,
-                        "seg": 29,
-                        "filename": "C_2016-29.wav",
-                        "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
-                    }
-                },
-                "piano": {
-                    "X": {
-                        "ID": 2016,
-                        "seg": 8,
-                        "filename": "X_2016-8.wav",
-                        "sr": 44100,
-                        "index_s": 1753088,
-                        "index_t": 1972224
-                    },
-                    "Y": {
-                        "ID": 2016,
-                        "seg": 25,
-                        "filename": "Y_2016-25.wav",
-                        "sr": 44100,
-                        "index_s": 5478400,
-                        "index_t": 5697536
-                    },
-                    "C": {
-                        "ID": 2092,
-                        "seg": 2,
-                        "filename": "C_2016-2.wav",
-                        "sr": 44100,
-                        "index_s": 438272,
-                        "index_t": 657408
-                    }
-                },
-                "guitar": {
-                    "X": {
-                        "ID": 2016,
+                        "ID": 1975,
                         "seg": 39,
-                        "filename": "X_2016-39.wav",
+                        "filename": "X_1975-39.wav",
                         "sr": 44100,
                         "index_s": 8546304,
                         "index_t": 8765440
                     },
                     "Y": {
-                        "ID": 2016,
-                        "seg": 12,
-                        "filename": "Y_2016-12.wav",
-                        "sr": 44100,
-                        "index_s": 2629632,
-                        "index_t": 2848768
-                    },
-                    "C": {
-                        "ID": 2092,
-                        "seg": 35,
-                        "filename": "C_2016-35.wav",
-                        "sr": 44100,
-                        "index_s": 7669760,
-                        "index_t": 7888896
-                    }
-                },
-                "residuals": {
-                    "X": {
-                        "ID": 2016,
+                        "ID": 1975,
                         "seg": 4,
-                        "filename": "X_2016-4.wav",
+                        "filename": "Y_1975-4.wav",
                         "sr": 44100,
                         "index_s": 876544,
                         "index_t": 1095680
                     },
-                    "Y": {
-                        "ID": 2016,
-                        "seg": 21,
-                        "filename": "Y_2016-21.wav",
+                    "C": {
+                        "ID": 1932,
+                        "seg": 38,
+                        "filename": "C_1932-38.wav",
                         "sr": 44100,
-                        "index_s": 4601856,
-                        "index_t": 4820992
+                        "index_s": 8327168,
+                        "index_t": 8546304
+                    }
+                },
+                "bass": {
+                    "X": {
+                        "ID": 1975,
+                        "seg": 13,
+                        "filename": "X_1975-13.wav",
+                        "sr": 44100,
+                        "index_s": 2848768,
+                        "index_t": 3067904
+                    },
+                    "Y": {
+                        "ID": 1975,
+                        "seg": 7,
+                        "filename": "Y_1975-7.wav",
+                        "sr": 44100,
+                        "index_s": 1533952,
+                        "index_t": 1753088
                     },
                     "C": {
-                        "ID": 2092,
+                        "ID": 1932,
+                        "seg": 18,
+                        "filename": "C_1932-18.wav",
+                        "sr": 44100,
+                        "index_s": 3944448,
+                        "index_t": 4163584
+                    }
+                },
+                "piano": {
+                    "X": {
+                        "ID": 1975,
                         "seg": 31,
-                        "filename": "C_2016-31.wav",
+                        "filename": "X_1975-31.wav",
                         "sr": 44100,
                         "index_s": 6793216,
                         "index_t": 7012352
+                    },
+                    "Y": {
+                        "ID": 1975,
+                        "seg": 29,
+                        "filename": "Y_1975-29.wav",
+                        "sr": 44100,
+                        "index_s": 6354944,
+                        "index_t": 6574080
+                    },
+                    "C": {
+                        "ID": 1932,
+                        "seg": 23,
+                        "filename": "C_1932-23.wav",
+                        "sr": 44100,
+                        "index_s": 5040128,
+                        "index_t": 5259264
+                    }
+                },
+                "guitar": {
+                    "X": {
+                        "ID": 1975,
+                        "seg": 31,
+                        "filename": "X_1975-31.wav",
+                        "sr": 44100,
+                        "index_s": 6793216,
+                        "index_t": 7012352
+                    },
+                    "Y": {
+                        "ID": 1975,
+                        "seg": 29,
+                        "filename": "Y_1975-29.wav",
+                        "sr": 44100,
+                        "index_s": 6354944,
+                        "index_t": 6574080
+                    },
+                    "C": {
+                        "ID": 1932,
+                        "seg": 46,
+                        "filename": "C_1932-46.wav",
+                        "sr": 44100,
+                        "index_s": 10080256,
+                        "index_t": 10299392
+                    }
+                },
+                "residuals": {
+                    "X": {
+                        "ID": 1975,
+                        "seg": 16,
+                        "filename": "X_1975-16.wav",
+                        "sr": 44100,
+                        "index_s": 3506176,
+                        "index_t": 3725312
+                    },
+                    "Y": {
+                        "ID": 1975,
+                        "seg": 49,
+                        "filename": "Y_1975-49.wav",
+                        "sr": 44100,
+                        "index_s": 10737664,
+                        "index_t": 10956800
+                    },
+                    "C": {
+                        "ID": 1932,
+                        "seg": 32,
+                        "filename": "C_1932-32.wav",
+                        "sr": 44100,
+                        "index_s": 7012352,
+                        "index_t": 7231488
                     }
                 }
             },
             "test2": {
                 "drums": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 45,
-                        "filename": "X_2016-45.wav",
+                        "ID": 1975,
+                        "seg": 39,
+                        "filename": "X_1975-39.wav",
                         "sr": 44100,
-                        "index_s": 9861120,
-                        "index_t": 10080256
+                        "index_s": 8546304,
+                        "index_t": 8765440
                     },
                     "A": {
-                        "ID": 2069,
-                        "seg": 4,
-                        "filename": "A_2016-4.wav",
+                        "ID": 2074,
+                        "seg": 58,
+                        "filename": "A_2074-58.wav",
                         "sr": 44100,
-                        "index_s": 876544,
-                        "index_t": 1095680
+                        "index_s": 12709888,
+                        "index_t": 12929024
                     },
                     "B": {
-                        "ID": 2004,
-                        "seg": 12,
-                        "filename": "B_2016-12.wav",
+                        "ID": 1962,
+                        "seg": 32,
+                        "filename": "B_1962-32.wav",
                         "sr": 44100,
-                        "index_s": 2629632,
-                        "index_t": 2848768
+                        "index_s": 7012352,
+                        "index_t": 7231488
                     }
                 },
                 "bass": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 47,
-                        "filename": "X_2016-47.wav",
-                        "sr": 44100,
-                        "index_s": 10299392,
-                        "index_t": 10518528
-                    },
-                    "A": {
-                        "ID": 2069,
-                        "seg": 8,
-                        "filename": "A_2016-8.wav",
-                        "sr": 44100,
-                        "index_s": 1753088,
-                        "index_t": 1972224
-                    },
-                    "B": {
-                        "ID": 2004,
+                        "ID": 1975,
                         "seg": 13,
-                        "filename": "B_2016-13.wav",
+                        "filename": "X_1975-13.wav",
                         "sr": 44100,
                         "index_s": 2848768,
                         "index_t": 3067904
+                    },
+                    "A": {
+                        "ID": 2074,
+                        "seg": 9,
+                        "filename": "A_2074-9.wav",
+                        "sr": 44100,
+                        "index_s": 1972224,
+                        "index_t": 2191360
+                    },
+                    "B": {
+                        "ID": 1962,
+                        "seg": 34,
+                        "filename": "B_1962-34.wav",
+                        "sr": 44100,
+                        "index_s": 7450624,
+                        "index_t": 7669760
                     }
                 },
                 "piano": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 8,
-                        "filename": "X_2016-8.wav",
+                        "ID": 1975,
+                        "seg": 31,
+                        "filename": "X_1975-31.wav",
                         "sr": 44100,
-                        "index_s": 1753088,
-                        "index_t": 1972224
+                        "index_s": 6793216,
+                        "index_t": 7012352
                     },
                     "A": {
-                        "ID": 2069,
-                        "seg": 11,
-                        "filename": "A_2016-11.wav",
+                        "ID": 2074,
+                        "seg": 41,
+                        "filename": "A_2074-41.wav",
                         "sr": 44100,
-                        "index_s": 2410496,
-                        "index_t": 2629632
+                        "index_s": 8984576,
+                        "index_t": 9203712
                     },
                     "B": {
-                        "ID": 2004,
-                        "seg": 39,
-                        "filename": "B_2016-39.wav",
+                        "ID": 1962,
+                        "seg": 28,
+                        "filename": "B_1962-28.wav",
                         "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
+                        "index_s": 6135808,
+                        "index_t": 6354944
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 39,
-                        "filename": "X_2016-39.wav",
+                        "ID": 1975,
+                        "seg": 31,
+                        "filename": "X_1975-31.wav",
                         "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
+                        "index_s": 6793216,
+                        "index_t": 7012352
                     },
                     "A": {
-                        "ID": 2069,
-                        "seg": 18,
-                        "filename": "A_2016-18.wav",
+                        "ID": 2074,
+                        "seg": 44,
+                        "filename": "A_2074-44.wav",
                         "sr": 44100,
-                        "index_s": 3944448,
-                        "index_t": 4163584
+                        "index_s": 9641984,
+                        "index_t": 9861120
                     },
                     "B": {
-                        "ID": 2004,
-                        "seg": 1,
-                        "filename": "B_2016-1.wav",
+                        "ID": 1962,
+                        "seg": 32,
+                        "filename": "B_1962-32.wav",
                         "sr": 44100,
-                        "index_s": 219136,
-                        "index_t": 438272
+                        "index_s": 7012352,
+                        "index_t": 7231488
                     }
                 },
                 "residuals": {
                     "X": {
-                        "ID": 2016,
-                        "seg": 4,
-                        "filename": "X_2016-4.wav",
+                        "ID": 1975,
+                        "seg": 16,
+                        "filename": "X_1975-16.wav",
                         "sr": 44100,
-                        "index_s": 876544,
-                        "index_t": 1095680
+                        "index_s": 3506176,
+                        "index_t": 3725312
                     },
                     "A": {
-                        "ID": 2069,
-                        "seg": 28,
-                        "filename": "A_2016-28.wav",
+                        "ID": 2074,
+                        "seg": 40,
+                        "filename": "A_2074-40.wav",
                         "sr": 44100,
-                        "index_s": 6135808,
-                        "index_t": 6354944
+                        "index_s": 8765440,
+                        "index_t": 8984576
                     },
                     "B": {
-                        "ID": 2004,
-                        "seg": 28,
-                        "filename": "B_2016-28.wav",
+                        "ID": 1962,
+                        "seg": 35,
+                        "filename": "B_1962-35.wav",
                         "sr": 44100,
-                        "index_s": 6135808,
-                        "index_t": 6354944
+                        "index_s": 7669760,
+                        "index_t": 7888896
                     }
                 }
             }
@@ -536,264 +536,264 @@
             "test1": {
                 "drums": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 20,
-                        "filename": "X_2064-20.wav",
+                        "ID": 2026,
+                        "seg": 24,
+                        "filename": "X_2026-24.wav",
                         "sr": 44100,
-                        "index_s": 4382720,
-                        "index_t": 4601856
+                        "index_s": 5259264,
+                        "index_t": 5478400
                     },
                     "Y": {
-                        "ID": 2064,
-                        "seg": 31,
-                        "filename": "Y_2064-31.wav",
+                        "ID": 2026,
+                        "seg": 5,
+                        "filename": "Y_2026-5.wav",
                         "sr": 44100,
-                        "index_s": 6793216,
-                        "index_t": 7012352
+                        "index_s": 1095680,
+                        "index_t": 1314816
                     },
                     "C": {
-                        "ID": 1907,
-                        "seg": 39,
-                        "filename": "C_2064-39.wav",
+                        "ID": 1898,
+                        "seg": 40,
+                        "filename": "C_1898-40.wav",
                         "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
+                        "index_s": 8765440,
+                        "index_t": 8984576
                     }
                 },
                 "bass": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 34,
-                        "filename": "X_2064-34.wav",
+                        "ID": 2026,
+                        "seg": 10,
+                        "filename": "X_2026-10.wav",
                         "sr": 44100,
-                        "index_s": 7450624,
-                        "index_t": 7669760
+                        "index_s": 2191360,
+                        "index_t": 2410496
                     },
                     "Y": {
-                        "ID": 2064,
-                        "seg": 29,
-                        "filename": "Y_2064-29.wav",
+                        "ID": 2026,
+                        "seg": 30,
+                        "filename": "Y_2026-30.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 6574080,
+                        "index_t": 6793216
                     },
                     "C": {
-                        "ID": 1907,
-                        "seg": 33,
-                        "filename": "C_2064-33.wav",
+                        "ID": 1898,
+                        "seg": 43,
+                        "filename": "C_1898-43.wav",
                         "sr": 44100,
-                        "index_s": 7231488,
-                        "index_t": 7450624
+                        "index_s": 9422848,
+                        "index_t": 9641984
                     }
                 },
                 "piano": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 6,
-                        "filename": "X_2064-6.wav",
+                        "ID": 2026,
+                        "seg": 26,
+                        "filename": "X_2026-26.wav",
                         "sr": 44100,
-                        "index_s": 1314816,
-                        "index_t": 1533952
+                        "index_s": 5697536,
+                        "index_t": 5916672
                     },
                     "Y": {
-                        "ID": 2064,
-                        "seg": 14,
-                        "filename": "Y_2064-14.wav",
+                        "ID": 2026,
+                        "seg": 7,
+                        "filename": "Y_2026-7.wav",
                         "sr": 44100,
-                        "index_s": 3067904,
-                        "index_t": 3287040
+                        "index_s": 1533952,
+                        "index_t": 1753088
                     },
                     "C": {
-                        "ID": 1907,
-                        "seg": 44,
-                        "filename": "C_2064-44.wav",
+                        "ID": 1898,
+                        "seg": 48,
+                        "filename": "C_1898-48.wav",
                         "sr": 44100,
-                        "index_s": 9641984,
-                        "index_t": 9861120
+                        "index_s": 10518528,
+                        "index_t": 10737664
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 38,
-                        "filename": "X_2064-38.wav",
+                        "ID": 2026,
+                        "seg": 29,
+                        "filename": "X_2026-29.wav",
                         "sr": 44100,
-                        "index_s": 8327168,
-                        "index_t": 8546304
+                        "index_s": 6354944,
+                        "index_t": 6574080
                     },
                     "Y": {
-                        "ID": 2064,
-                        "seg": 28,
-                        "filename": "Y_2064-28.wav",
+                        "ID": 2026,
+                        "seg": 11,
+                        "filename": "Y_2026-11.wav",
                         "sr": 44100,
-                        "index_s": 6135808,
-                        "index_t": 6354944
+                        "index_s": 2410496,
+                        "index_t": 2629632
                     },
                     "C": {
-                        "ID": 1907,
-                        "seg": 3,
-                        "filename": "C_2064-3.wav",
+                        "ID": 1898,
+                        "seg": 56,
+                        "filename": "C_1898-56.wav",
                         "sr": 44100,
-                        "index_s": 657408,
-                        "index_t": 876544
+                        "index_s": 12271616,
+                        "index_t": 12490752
                     }
                 },
                 "residuals": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 47,
-                        "filename": "X_2064-47.wav",
+                        "ID": 2026,
+                        "seg": 7,
+                        "filename": "X_2026-7.wav",
                         "sr": 44100,
-                        "index_s": 10299392,
-                        "index_t": 10518528
+                        "index_s": 1533952,
+                        "index_t": 1753088
                     },
                     "Y": {
-                        "ID": 2064,
-                        "seg": 27,
-                        "filename": "Y_2064-27.wav",
+                        "ID": 2026,
+                        "seg": 10,
+                        "filename": "Y_2026-10.wav",
                         "sr": 44100,
-                        "index_s": 5916672,
-                        "index_t": 6135808
+                        "index_s": 2191360,
+                        "index_t": 2410496
                     },
                     "C": {
-                        "ID": 1907,
-                        "seg": 33,
-                        "filename": "C_2064-33.wav",
+                        "ID": 1898,
+                        "seg": 36,
+                        "filename": "C_1898-36.wav",
                         "sr": 44100,
-                        "index_s": 7231488,
-                        "index_t": 7450624
+                        "index_s": 7888896,
+                        "index_t": 8108032
                     }
                 }
             },
             "test2": {
                 "drums": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 20,
-                        "filename": "X_2064-20.wav",
-                        "sr": 44100,
-                        "index_s": 4382720,
-                        "index_t": 4601856
-                    },
-                    "A": {
-                        "ID": 1886,
-                        "seg": 39,
-                        "filename": "A_2064-39.wav",
-                        "sr": 44100,
-                        "index_s": 8546304,
-                        "index_t": 8765440
-                    },
-                    "B": {
-                        "ID": 2069,
-                        "seg": 25,
-                        "filename": "B_2064-25.wav",
-                        "sr": 44100,
-                        "index_s": 5478400,
-                        "index_t": 5697536
-                    }
-                },
-                "bass": {
-                    "X": {
-                        "ID": 2064,
-                        "seg": 34,
-                        "filename": "X_2064-34.wav",
-                        "sr": 44100,
-                        "index_s": 7450624,
-                        "index_t": 7669760
-                    },
-                    "A": {
-                        "ID": 1886,
+                        "ID": 2026,
                         "seg": 24,
-                        "filename": "A_2064-24.wav",
+                        "filename": "X_2026-24.wav",
                         "sr": 44100,
                         "index_s": 5259264,
                         "index_t": 5478400
                     },
-                    "B": {
-                        "ID": 2069,
-                        "seg": 18,
-                        "filename": "B_2064-18.wav",
-                        "sr": 44100,
-                        "index_s": 3944448,
-                        "index_t": 4163584
-                    }
-                },
-                "piano": {
-                    "X": {
-                        "ID": 2064,
+                    "A": {
+                        "ID": 1981,
                         "seg": 6,
-                        "filename": "X_2064-6.wav",
+                        "filename": "A_1981-6.wav",
                         "sr": 44100,
                         "index_s": 1314816,
                         "index_t": 1533952
                     },
-                    "A": {
-                        "ID": 1886,
-                        "seg": 7,
-                        "filename": "A_2064-7.wav",
-                        "sr": 44100,
-                        "index_s": 1533952,
-                        "index_t": 1753088
-                    },
                     "B": {
-                        "ID": 2069,
-                        "seg": 3,
-                        "filename": "B_2064-3.wav",
+                        "ID": 2017,
+                        "seg": 20,
+                        "filename": "B_2017-20.wav",
                         "sr": 44100,
-                        "index_s": 657408,
-                        "index_t": 876544
+                        "index_s": 4382720,
+                        "index_t": 4601856
                     }
                 },
-                "guitar": {
+                "bass": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 38,
-                        "filename": "X_2064-38.wav",
+                        "ID": 2026,
+                        "seg": 10,
+                        "filename": "X_2026-10.wav",
                         "sr": 44100,
-                        "index_s": 8327168,
-                        "index_t": 8546304
+                        "index_s": 2191360,
+                        "index_t": 2410496
                     },
                     "A": {
-                        "ID": 1886,
-                        "seg": 43,
-                        "filename": "A_2064-43.wav",
+                        "ID": 1981,
+                        "seg": 36,
+                        "filename": "A_1981-36.wav",
                         "sr": 44100,
-                        "index_s": 9422848,
-                        "index_t": 9641984
+                        "index_s": 7888896,
+                        "index_t": 8108032
                     },
                     "B": {
-                        "ID": 2069,
+                        "ID": 2017,
                         "seg": 30,
-                        "filename": "B_2064-30.wav",
+                        "filename": "B_2017-30.wav",
                         "sr": 44100,
                         "index_s": 6574080,
                         "index_t": 6793216
                     }
                 },
-                "residuals": {
+                "piano": {
                     "X": {
-                        "ID": 2064,
-                        "seg": 47,
-                        "filename": "X_2064-47.wav",
+                        "ID": 2026,
+                        "seg": 26,
+                        "filename": "X_2026-26.wav",
                         "sr": 44100,
-                        "index_s": 10299392,
-                        "index_t": 10518528
+                        "index_s": 5697536,
+                        "index_t": 5916672
                     },
                     "A": {
-                        "ID": 1886,
+                        "ID": 1981,
+                        "seg": 3,
+                        "filename": "A_1981-3.wav",
+                        "sr": 44100,
+                        "index_s": 657408,
+                        "index_t": 876544
+                    },
+                    "B": {
+                        "ID": 2017,
+                        "seg": 21,
+                        "filename": "B_2017-21.wav",
+                        "sr": 44100,
+                        "index_s": 4601856,
+                        "index_t": 4820992
+                    }
+                },
+                "guitar": {
+                    "X": {
+                        "ID": 2026,
+                        "seg": 29,
+                        "filename": "X_2026-29.wav",
+                        "sr": 44100,
+                        "index_s": 6354944,
+                        "index_t": 6574080
+                    },
+                    "A": {
+                        "ID": 1981,
+                        "seg": 30,
+                        "filename": "A_1981-30.wav",
+                        "sr": 44100,
+                        "index_s": 6574080,
+                        "index_t": 6793216
+                    },
+                    "B": {
+                        "ID": 2017,
                         "seg": 12,
-                        "filename": "A_2064-12.wav",
+                        "filename": "B_2017-12.wav",
                         "sr": 44100,
                         "index_s": 2629632,
                         "index_t": 2848768
+                    }
+                },
+                "residuals": {
+                    "X": {
+                        "ID": 2026,
+                        "seg": 7,
+                        "filename": "X_2026-7.wav",
+                        "sr": 44100,
+                        "index_s": 1533952,
+                        "index_t": 1753088
+                    },
+                    "A": {
+                        "ID": 1981,
+                        "seg": 14,
+                        "filename": "A_1981-14.wav",
+                        "sr": 44100,
+                        "index_s": 3067904,
+                        "index_t": 3287040
                     },
                     "B": {
-                        "ID": 2069,
-                        "seg": 47,
-                        "filename": "B_2064-47.wav",
+                        "ID": 2017,
+                        "seg": 39,
+                        "filename": "B_2017-39.wav",
                         "sr": 44100,
-                        "index_s": 10299392,
-                        "index_t": 10518528
+                        "index_s": 8546304,
+                        "index_t": 8765440
                     }
                 }
             }
@@ -802,264 +802,264 @@
             "test1": {
                 "drums": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 32,
-                        "filename": "X_1981-32.wav",
+                        "ID": 1987,
+                        "seg": 45,
+                        "filename": "X_1987-45.wav",
                         "sr": 44100,
-                        "index_s": 7012352,
-                        "index_t": 7231488
+                        "index_s": 9861120,
+                        "index_t": 10080256
                     },
                     "Y": {
-                        "ID": 1981,
+                        "ID": 1987,
+                        "seg": 26,
+                        "filename": "Y_1987-26.wav",
+                        "sr": 44100,
+                        "index_s": 5697536,
+                        "index_t": 5916672
+                    },
+                    "C": {
+                        "ID": 2092,
+                        "seg": 25,
+                        "filename": "C_2092-25.wav",
+                        "sr": 44100,
+                        "index_s": 5478400,
+                        "index_t": 5697536
+                    }
+                },
+                "bass": {
+                    "X": {
+                        "ID": 1987,
+                        "seg": 44,
+                        "filename": "X_1987-44.wav",
+                        "sr": 44100,
+                        "index_s": 9641984,
+                        "index_t": 9861120
+                    },
+                    "Y": {
+                        "ID": 1987,
+                        "seg": 53,
+                        "filename": "Y_1987-53.wav",
+                        "sr": 44100,
+                        "index_s": 11614208,
+                        "index_t": 11833344
+                    },
+                    "C": {
+                        "ID": 2092,
                         "seg": 34,
-                        "filename": "Y_1981-34.wav",
+                        "filename": "C_2092-34.wav",
+                        "sr": 44100,
+                        "index_s": 7450624,
+                        "index_t": 7669760
+                    }
+                },
+                "piano": {
+                    "X": {
+                        "ID": 1987,
+                        "seg": 30,
+                        "filename": "X_1987-30.wav",
+                        "sr": 44100,
+                        "index_s": 6574080,
+                        "index_t": 6793216
+                    },
+                    "Y": {
+                        "ID": 1987,
+                        "seg": 34,
+                        "filename": "Y_1987-34.wav",
                         "sr": 44100,
                         "index_s": 7450624,
                         "index_t": 7669760
                     },
                     "C": {
-                        "ID": 1948,
-                        "seg": 31,
-                        "filename": "C_1981-31.wav",
+                        "ID": 2092,
+                        "seg": 12,
+                        "filename": "C_2092-12.wav",
                         "sr": 44100,
-                        "index_s": 6793216,
-                        "index_t": 7012352
-                    }
-                },
-                "bass": {
-                    "X": {
-                        "ID": 1981,
-                        "seg": 52,
-                        "filename": "X_1981-52.wav",
-                        "sr": 44100,
-                        "index_s": 11395072,
-                        "index_t": 11614208
-                    },
-                    "Y": {
-                        "ID": 1981,
-                        "seg": 36,
-                        "filename": "Y_1981-36.wav",
-                        "sr": 44100,
-                        "index_s": 7888896,
-                        "index_t": 8108032
-                    },
-                    "C": {
-                        "ID": 1948,
-                        "seg": 15,
-                        "filename": "C_1981-15.wav",
-                        "sr": 44100,
-                        "index_s": 3287040,
-                        "index_t": 3506176
-                    }
-                },
-                "piano": {
-                    "X": {
-                        "ID": 1981,
-                        "seg": 18,
-                        "filename": "X_1981-18.wav",
-                        "sr": 44100,
-                        "index_s": 3944448,
-                        "index_t": 4163584
-                    },
-                    "Y": {
-                        "ID": 1981,
-                        "seg": 3,
-                        "filename": "Y_1981-3.wav",
-                        "sr": 44100,
-                        "index_s": 657408,
-                        "index_t": 876544
-                    },
-                    "C": {
-                        "ID": 1948,
-                        "seg": 18,
-                        "filename": "C_1981-18.wav",
-                        "sr": 44100,
-                        "index_s": 3944448,
-                        "index_t": 4163584
+                        "index_s": 2629632,
+                        "index_t": 2848768
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 22,
-                        "filename": "X_1981-22.wav",
-                        "sr": 44100,
-                        "index_s": 4820992,
-                        "index_t": 5040128
-                    },
-                    "Y": {
-                        "ID": 1981,
-                        "seg": 21,
-                        "filename": "Y_1981-21.wav",
-                        "sr": 44100,
-                        "index_s": 4601856,
-                        "index_t": 4820992
-                    },
-                    "C": {
-                        "ID": 1948,
-                        "seg": 11,
-                        "filename": "C_1981-11.wav",
-                        "sr": 44100,
-                        "index_s": 2410496,
-                        "index_t": 2629632
-                    }
-                },
-                "residuals": {
-                    "X": {
-                        "ID": 1981,
+                        "ID": 1987,
                         "seg": 33,
-                        "filename": "X_1981-33.wav",
+                        "filename": "X_1987-33.wav",
                         "sr": 44100,
                         "index_s": 7231488,
                         "index_t": 7450624
                     },
                     "Y": {
-                        "ID": 1981,
-                        "seg": 29,
-                        "filename": "Y_1981-29.wav",
+                        "ID": 1987,
+                        "seg": 37,
+                        "filename": "Y_1987-37.wav",
                         "sr": 44100,
-                        "index_s": 6354944,
-                        "index_t": 6574080
+                        "index_s": 8108032,
+                        "index_t": 8327168
                     },
                     "C": {
-                        "ID": 1948,
-                        "seg": 30,
-                        "filename": "C_1981-30.wav",
+                        "ID": 2092,
+                        "seg": 14,
+                        "filename": "C_2092-14.wav",
                         "sr": 44100,
-                        "index_s": 6574080,
-                        "index_t": 6793216
+                        "index_s": 3067904,
+                        "index_t": 3287040
+                    }
+                },
+                "residuals": {
+                    "X": {
+                        "ID": 1987,
+                        "seg": 39,
+                        "filename": "X_1987-39.wav",
+                        "sr": 44100,
+                        "index_s": 8546304,
+                        "index_t": 8765440
+                    },
+                    "Y": {
+                        "ID": 1987,
+                        "seg": 27,
+                        "filename": "Y_1987-27.wav",
+                        "sr": 44100,
+                        "index_s": 5916672,
+                        "index_t": 6135808
+                    },
+                    "C": {
+                        "ID": 2092,
+                        "seg": 33,
+                        "filename": "C_2092-33.wav",
+                        "sr": 44100,
+                        "index_s": 7231488,
+                        "index_t": 7450624
                     }
                 }
             },
             "test2": {
                 "drums": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 32,
-                        "filename": "X_1981-32.wav",
+                        "ID": 1987,
+                        "seg": 45,
+                        "filename": "X_1987-45.wav",
                         "sr": 44100,
-                        "index_s": 7012352,
-                        "index_t": 7231488
+                        "index_s": 9861120,
+                        "index_t": 10080256
                     },
                     "A": {
-                        "ID": 2001,
-                        "seg": 54,
-                        "filename": "A_1981-54.wav",
+                        "ID": 2087,
+                        "seg": 6,
+                        "filename": "A_2087-6.wav",
                         "sr": 44100,
-                        "index_s": 11833344,
-                        "index_t": 12052480
+                        "index_s": 1314816,
+                        "index_t": 1533952
                     },
                     "B": {
-                        "ID": 1995,
-                        "seg": 37,
-                        "filename": "B_1981-37.wav",
+                        "ID": 2045,
+                        "seg": 11,
+                        "filename": "B_2045-11.wav",
                         "sr": 44100,
-                        "index_s": 8108032,
-                        "index_t": 8327168
+                        "index_s": 2410496,
+                        "index_t": 2629632
                     }
                 },
                 "bass": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 52,
-                        "filename": "X_1981-52.wav",
+                        "ID": 1987,
+                        "seg": 44,
+                        "filename": "X_1987-44.wav",
                         "sr": 44100,
-                        "index_s": 11395072,
-                        "index_t": 11614208
+                        "index_s": 9641984,
+                        "index_t": 9861120
                     },
                     "A": {
-                        "ID": 2001,
-                        "seg": 57,
-                        "filename": "A_1981-57.wav",
+                        "ID": 2087,
+                        "seg": 23,
+                        "filename": "A_2087-23.wav",
                         "sr": 44100,
-                        "index_s": 12490752,
-                        "index_t": 12709888
+                        "index_s": 5040128,
+                        "index_t": 5259264
                     },
                     "B": {
-                        "ID": 1995,
-                        "seg": 42,
-                        "filename": "B_1981-42.wav",
+                        "ID": 2045,
+                        "seg": 11,
+                        "filename": "B_2045-11.wav",
                         "sr": 44100,
-                        "index_s": 9203712,
-                        "index_t": 9422848
+                        "index_s": 2410496,
+                        "index_t": 2629632
                     }
                 },
                 "piano": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 18,
-                        "filename": "X_1981-18.wav",
+                        "ID": 1987,
+                        "seg": 30,
+                        "filename": "X_1987-30.wav",
                         "sr": 44100,
-                        "index_s": 3944448,
-                        "index_t": 4163584
+                        "index_s": 6574080,
+                        "index_t": 6793216
                     },
                     "A": {
-                        "ID": 2001,
-                        "seg": 54,
-                        "filename": "A_1981-54.wav",
+                        "ID": 2087,
+                        "seg": 40,
+                        "filename": "A_2087-40.wav",
                         "sr": 44100,
-                        "index_s": 11833344,
-                        "index_t": 12052480
+                        "index_s": 8765440,
+                        "index_t": 8984576
                     },
                     "B": {
-                        "ID": 1995,
-                        "seg": 14,
-                        "filename": "B_1981-14.wav",
+                        "ID": 2045,
+                        "seg": 4,
+                        "filename": "B_2045-4.wav",
                         "sr": 44100,
-                        "index_s": 3067904,
-                        "index_t": 3287040
+                        "index_s": 876544,
+                        "index_t": 1095680
                     }
                 },
                 "guitar": {
                     "X": {
-                        "ID": 1981,
-                        "seg": 22,
-                        "filename": "X_1981-22.wav",
-                        "sr": 44100,
-                        "index_s": 4820992,
-                        "index_t": 5040128
-                    },
-                    "A": {
-                        "ID": 2001,
-                        "seg": 36,
-                        "filename": "A_1981-36.wav",
-                        "sr": 44100,
-                        "index_s": 7888896,
-                        "index_t": 8108032
-                    },
-                    "B": {
-                        "ID": 1995,
-                        "seg": 7,
-                        "filename": "B_1981-7.wav",
-                        "sr": 44100,
-                        "index_s": 1533952,
-                        "index_t": 1753088
-                    }
-                },
-                "residuals": {
-                    "X": {
-                        "ID": 1981,
+                        "ID": 1987,
                         "seg": 33,
-                        "filename": "X_1981-33.wav",
+                        "filename": "X_1987-33.wav",
                         "sr": 44100,
                         "index_s": 7231488,
                         "index_t": 7450624
                     },
                     "A": {
-                        "ID": 2001,
-                        "seg": 35,
-                        "filename": "A_1981-35.wav",
+                        "ID": 2087,
+                        "seg": 9,
+                        "filename": "A_2087-9.wav",
                         "sr": 44100,
-                        "index_s": 7669760,
-                        "index_t": 7888896
+                        "index_s": 1972224,
+                        "index_t": 2191360
                     },
                     "B": {
-                        "ID": 1995,
-                        "seg": 11,
-                        "filename": "B_1981-11.wav",
+                        "ID": 2045,
+                        "seg": 3,
+                        "filename": "B_2045-3.wav",
                         "sr": 44100,
-                        "index_s": 2410496,
-                        "index_t": 2629632
+                        "index_s": 657408,
+                        "index_t": 876544
+                    }
+                },
+                "residuals": {
+                    "X": {
+                        "ID": 1987,
+                        "seg": 39,
+                        "filename": "X_1987-39.wav",
+                        "sr": 44100,
+                        "index_s": 8546304,
+                        "index_t": 8765440
+                    },
+                    "A": {
+                        "ID": 2087,
+                        "seg": 36,
+                        "filename": "A_2087-36.wav",
+                        "sr": 44100,
+                        "index_s": 7888896,
+                        "index_t": 8108032
+                    },
+                    "B": {
+                        "ID": 2045,
+                        "seg": 6,
+                        "filename": "B_2045-6.wav",
+                        "sr": 44100,
+                        "index_s": 1314816,
+                        "index_t": 1533952
                     }
                 }
             }
