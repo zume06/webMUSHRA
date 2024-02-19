@@ -2,12 +2,14 @@ import json
 import yaml
 import random
 from collections import OrderedDict
+import os
 
 
 with open("./sample_list/dict_triplet.json", "r") as f:
     dict_triplet = json.load(f)
     
-setnum = 1
+testname = "test_20240219"
+setnum = 10
 tripletnum = 4
 references = {}
 samplesA = {}
@@ -49,7 +51,7 @@ for k in range(setnum):
     
     config = {
         "testname": "Instrumental Similarity ABX Test",
-        "testId": "abx_changed",
+        "testId": testname,
         "bufferSize": 2048,
         "stopOnErrors": True,
         "showButtonPreviousPage": True,
@@ -101,12 +103,12 @@ for k in range(setnum):
                 {"label": "Worker Id",
                 "name": "workerId",
                 "type": "text"},
-            "showResults": True,
+            "showResults": False,
             "writeResults": True,}
             
         ]
     }
     
-    
-    with open('./configfiles/config_set{}.yaml'.format(k), 'w', encoding='utf-8') as f:
+    os.makedirs('./configfiles/{}'.format(testname), exist_ok=True)
+    with open('./configfiles/{}/config_set{}.yaml'.format(testname, k), 'w', encoding='utf-8') as f:
         yaml.dump(config, f, allow_unicode=True, default_flow_style=False, sort_keys=False)

@@ -1,5 +1,5 @@
 testname: Instrumental Similarity ABX Test
-testId: inst_sim_abx_2024sp
+testId: test_20240219
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
