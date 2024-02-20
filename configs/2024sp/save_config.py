@@ -8,8 +8,8 @@ import os
 with open("./sample_list/dict_triplet.json", "r") as f:
     dict_triplet = json.load(f)
     
-testname = "test_20240219"
-setnum = 10
+testname = "inst_sim_abx_2024sp"
+setnum = 80
 tripletnum = 4
 references = {}
 samplesA = {}
@@ -78,10 +78,10 @@ for k in range(setnum):
             "stimulus": "configs/2024sp/resources/samples/voleme_sample.wav",            
             },
             {"type": "paired_comparison_changed",
-            "id": "test0212",
+            "id": "ABX",
             "name": "Instrumental Similarity Test",
             "content": explain,
-            "showWaveform": True,
+            "showWaveform": False,
             "enableLooping": False,
             "reference":
                 references,
@@ -100,9 +100,9 @@ for k in range(setnum):
             "name": "Thank you",
             "content": "ご協力ありがとうございました！.<br> <b>支払いのため，以下にクラウドワークスIDの入力をお願いします．<b>",
             "questionnaire":
-                {"label": "Worker Id",
+                [{"label": "Worker Id",
                 "name": "workerId",
-                "type": "text"},
+                "type": "text"}],
             "showResults": False,
             "writeResults": True,}
             

@@ -178,7 +178,7 @@ foreach ($session->trials as $trial) {
 }
 
 if ($write_pc) {
-	$filename = $filepathPrefix."paired_comparison".$filepathPostfix;
+	$filename = $filepathPrefix."answer_results".$filepathPostfix;
 	$isFile = is_file($filename);
 	$fp = fopen($filename, 'a');
 	foreach ($pcCsvData as $row) {
