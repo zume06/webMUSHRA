@@ -10,16 +10,16 @@ pages:
   id: first_page
   name: Welcome
 - type: generic
-  content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li>
+  content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください。<br> <b>楽器音は全て必ず最後まで聞いてください。</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
     Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br>
     <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br> また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br>
     </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li>
-    <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
+    <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li> <li><b>3つの楽器音全てを再生してから回答を選択しないとNextボタンは押せません。</b></li>'
   id: Top_page
-  name: Instrumental Similarity Test
+  name: 実験手順の説明(必ず最後まで読んでから次へ進んでください。)
 - type: volume
-  content: 音量を調整してください．このサンプルはベース音の例です.
+  content: 音量を調整してください。このサンプルはベース音の例です。
   id: vol
   name: 音量調整
   defaultVolume: 0.5
@@ -27,12 +27,12 @@ pages:
 - type: paired_comparison_changed
   id: ABX
   name: Instrumental Similarity Test
-  content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください<br> <b>楽器音は全て必ず最後まで聞いてください</b> </li>
+  content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください。<br> <b>楽器音は全て必ず最後まで聞いてください。</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
     Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br>
     <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br> また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br>
     </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li>
-    <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li>'
+    <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li> <li><b>3つの楽器音全てを再生してから回答を選択しないとNextボタンは押せません。</b></li>'
   showWaveform: false
   enableLooping: false
   reference:
@@ -79,11 +79,11 @@ pages:
     X41: configs/2024sp/resources/samples/dummyX1.wav
     X42: configs/2024sp/resources/samples/dummyX2.wav
   sampleA:
-    A1: configs/2024sp/resources/set37/drums/0/Y_2052-16.wav
-    A2: configs/2024sp/resources/set37/bass/0/C_1877-45.wav
-    A3: configs/2024sp/resources/set37/piano/0/C_1877-29.wav
+    A1: configs/2024sp/resources/set37/drums/0/C_1877-17.wav
+    A2: configs/2024sp/resources/set37/bass/0/Y_2052-34.wav
+    A3: configs/2024sp/resources/set37/piano/0/Y_2052-8.wav
     A4: configs/2024sp/resources/set37/guitar/0/C_1877-11.wav
-    A5: configs/2024sp/resources/set37/residuals/0/Y_2052-35.wav
+    A5: configs/2024sp/resources/set37/residuals/0/C_1877-41.wav
     A6: configs/2024sp/resources/set37/drums/0/A_1899-11.wav
     A7: configs/2024sp/resources/set37/bass/0/A_1899-24.wav
     A8: configs/2024sp/resources/set37/piano/0/A_1899-16.wav
@@ -91,29 +91,29 @@ pages:
     A10: configs/2024sp/resources/set37/residuals/0/A_1899-25.wav
     A11: configs/2024sp/resources/set37/drums/1/Y_1965-43.wav
     A12: configs/2024sp/resources/set37/bass/1/C_2056-14.wav
-    A13: configs/2024sp/resources/set37/piano/1/C_2056-25.wav
+    A13: configs/2024sp/resources/set37/piano/1/Y_1965-22.wav
     A14: configs/2024sp/resources/set37/guitar/1/Y_1965-25.wav
-    A15: configs/2024sp/resources/set37/residuals/1/Y_1965-34.wav
+    A15: configs/2024sp/resources/set37/residuals/1/C_2056-21.wav
     A16: configs/2024sp/resources/set37/drums/1/A_2082-34.wav
     A17: configs/2024sp/resources/set37/bass/1/A_2082-21.wav
     A18: configs/2024sp/resources/set37/piano/1/A_2082-1.wav
     A19: configs/2024sp/resources/set37/guitar/1/A_2082-15.wav
     A20: configs/2024sp/resources/set37/residuals/1/A_2082-23.wav
-    A21: configs/2024sp/resources/set37/drums/2/C_2051-21.wav
+    A21: configs/2024sp/resources/set37/drums/2/Y_1877-12.wav
     A22: configs/2024sp/resources/set37/bass/2/Y_1877-29.wav
-    A23: configs/2024sp/resources/set37/piano/2/C_2051-44.wav
+    A23: configs/2024sp/resources/set37/piano/2/Y_1877-35.wav
     A24: configs/2024sp/resources/set37/guitar/2/Y_1877-28.wav
-    A25: configs/2024sp/resources/set37/residuals/2/C_2051-32.wav
+    A25: configs/2024sp/resources/set37/residuals/2/Y_1877-22.wav
     A26: configs/2024sp/resources/set37/drums/2/A_1990-35.wav
     A27: configs/2024sp/resources/set37/bass/2/A_1990-54.wav
     A28: configs/2024sp/resources/set37/piano/2/A_1990-81.wav
     A29: configs/2024sp/resources/set37/guitar/2/A_1990-76.wav
     A30: configs/2024sp/resources/set37/residuals/2/A_1990-41.wav
-    A31: configs/2024sp/resources/set37/drums/3/Y_1963-32.wav
-    A32: configs/2024sp/resources/set37/bass/3/C_2069-23.wav
-    A33: configs/2024sp/resources/set37/piano/3/Y_1963-39.wav
+    A31: configs/2024sp/resources/set37/drums/3/C_2069-19.wav
+    A32: configs/2024sp/resources/set37/bass/3/Y_1963-27.wav
+    A33: configs/2024sp/resources/set37/piano/3/C_2069-14.wav
     A34: configs/2024sp/resources/set37/guitar/3/C_2069-24.wav
-    A35: configs/2024sp/resources/set37/residuals/3/Y_1963-20.wav
+    A35: configs/2024sp/resources/set37/residuals/3/C_2069-41.wav
     A36: configs/2024sp/resources/set37/drums/3/A_2008-23.wav
     A37: configs/2024sp/resources/set37/bass/3/A_2008-18.wav
     A38: configs/2024sp/resources/set37/piano/3/A_2008-30.wav
@@ -122,11 +122,11 @@ pages:
     A41: configs/2024sp/resources/samples/dummyX1.wav
     A42: configs/2024sp/resources/samples/dummyA2.wav
   sampleB:
-    B1: configs/2024sp/resources/set37/drums/0/C_1877-17.wav
-    B2: configs/2024sp/resources/set37/bass/0/Y_2052-34.wav
-    B3: configs/2024sp/resources/set37/piano/0/Y_2052-8.wav
+    B1: configs/2024sp/resources/set37/drums/0/Y_2052-16.wav
+    B2: configs/2024sp/resources/set37/bass/0/C_1877-45.wav
+    B3: configs/2024sp/resources/set37/piano/0/C_1877-29.wav
     B4: configs/2024sp/resources/set37/guitar/0/Y_2052-9.wav
-    B5: configs/2024sp/resources/set37/residuals/0/C_1877-41.wav
+    B5: configs/2024sp/resources/set37/residuals/0/Y_2052-35.wav
     B6: configs/2024sp/resources/set37/drums/0/B_1996-18.wav
     B7: configs/2024sp/resources/set37/bass/0/B_1996-43.wav
     B8: configs/2024sp/resources/set37/piano/0/B_1996-54.wav
@@ -134,29 +134,29 @@ pages:
     B10: configs/2024sp/resources/set37/residuals/0/B_1996-49.wav
     B11: configs/2024sp/resources/set37/drums/1/C_2056-43.wav
     B12: configs/2024sp/resources/set37/bass/1/Y_1965-29.wav
-    B13: configs/2024sp/resources/set37/piano/1/Y_1965-22.wav
+    B13: configs/2024sp/resources/set37/piano/1/C_2056-25.wav
     B14: configs/2024sp/resources/set37/guitar/1/C_2056-24.wav
-    B15: configs/2024sp/resources/set37/residuals/1/C_2056-21.wav
+    B15: configs/2024sp/resources/set37/residuals/1/Y_1965-34.wav
     B16: configs/2024sp/resources/set37/drums/1/B_1962-22.wav
     B17: configs/2024sp/resources/set37/bass/1/B_1962-35.wav
     B18: configs/2024sp/resources/set37/piano/1/B_1962-13.wav
     B19: configs/2024sp/resources/set37/guitar/1/B_1962-21.wav
     B20: configs/2024sp/resources/set37/residuals/1/B_1962-32.wav
-    B21: configs/2024sp/resources/set37/drums/2/Y_1877-12.wav
+    B21: configs/2024sp/resources/set37/drums/2/C_2051-21.wav
     B22: configs/2024sp/resources/set37/bass/2/C_2051-32.wav
-    B23: configs/2024sp/resources/set37/piano/2/Y_1877-35.wav
+    B23: configs/2024sp/resources/set37/piano/2/C_2051-44.wav
     B24: configs/2024sp/resources/set37/guitar/2/C_2051-13.wav
-    B25: configs/2024sp/resources/set37/residuals/2/Y_1877-22.wav
+    B25: configs/2024sp/resources/set37/residuals/2/C_2051-32.wav
     B26: configs/2024sp/resources/set37/drums/2/B_1963-5.wav
     B27: configs/2024sp/resources/set37/bass/2/B_1963-45.wav
     B28: configs/2024sp/resources/set37/piano/2/B_1963-9.wav
     B29: configs/2024sp/resources/set37/guitar/2/B_1963-23.wav
     B30: configs/2024sp/resources/set37/residuals/2/B_1963-21.wav
-    B31: configs/2024sp/resources/set37/drums/3/C_2069-19.wav
-    B32: configs/2024sp/resources/set37/bass/3/Y_1963-27.wav
-    B33: configs/2024sp/resources/set37/piano/3/C_2069-14.wav
+    B31: configs/2024sp/resources/set37/drums/3/Y_1963-32.wav
+    B32: configs/2024sp/resources/set37/bass/3/C_2069-23.wav
+    B33: configs/2024sp/resources/set37/piano/3/Y_1963-39.wav
     B34: configs/2024sp/resources/set37/guitar/3/Y_1963-26.wav
-    B35: configs/2024sp/resources/set37/residuals/3/C_2069-41.wav
+    B35: configs/2024sp/resources/set37/residuals/3/Y_1963-20.wav
     B36: configs/2024sp/resources/set37/drums/3/B_1916-34.wav
     B37: configs/2024sp/resources/set37/bass/3/B_1916-47.wav
     B38: configs/2024sp/resources/set37/piano/3/B_1916-12.wav
@@ -170,7 +170,7 @@ pages:
   name: 楽器演奏に関するアンケート
 - type: finish
   name: Thank you
-  content: ご協力ありがとうございました！.<br> <b>支払いのため，以下にクラウドワークスIDの入力をお願いします．<b>
+  content: ご協力ありがとうございました！.<br> <b>支払いのため、以下にクラウドワークスIDの入力をお願いします。<b>
   questionnaire:
   - label: Worker Id
     name: workerId
