@@ -40,10 +40,10 @@ if (!is_dir($filepathPrefix)) {
     mkdir($filepathPrefix);
 }
 if (!is_dir($filepathPreCount)) {
-	echo $filepathPreCount;
+	//echo $filepathPreCount;
     mkdir($filepathPreCount);
 }
-echo $trial->type;
+//echo $trial->type;
 $length = count($session->participant->name);
 // mushra
 $write_mushra = false;
@@ -166,9 +166,9 @@ foreach ($session->trials as $trial) {
 	  }
   }
   else if ($trial->type == "get_set_num") {
-	echo $trial->type;
-	echo $trial->count;
-	echo $trial->userID;
+	//echo $trial->type;
+	//echo $trial->count;
+	//echo $trial->userID;
 	$getData = $trial->count;
 	$getID = $trial->userID;
 	//echo $getData;
@@ -541,7 +541,7 @@ if ($write_count) {
 	//$filename = $filepathPreCount."counts".$filepathPostCount;
 	$filename = $filepathPrefix."counts".$filepathPostfix;
     //$filename = $filepathPreCount."counts".$filepathPostCount;
-	echo $getData;
+	//echo $getData;
 	$getCsvData = array();
 	array_push($getCsvData, strval($getData), $getID);
     $isFile = is_file($filename);
@@ -553,7 +553,7 @@ if ($write_count) {
 	}
 	$fp = fopen($filename, 'a');
 	if ($fp) {
-		echo "Opened file.";
+		//echo "Opened file.";
 		$filename = chmod($filename, 0666);
 		print_r($getCsvData);
 		fputcsv($fp, $getCsvData);
