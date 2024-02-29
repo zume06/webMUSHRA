@@ -1,5 +1,6 @@
 testname: Instrumental Similarity ABX Test
 testId: inst_sim_abx_2024sp
+setno: 27
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -26,6 +27,7 @@ pages:
   stimulus: configs/2024sp/resources/samples/voleme_sample.wav
 - type: paired_comparison_changed
   id: ABX
+  setno: 27
   name: Instrumental Similarity Test
   content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください。<br> <b>楽器音は全て必ず最後まで聞いてください。</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
@@ -103,16 +105,16 @@ pages:
     A22: configs/2024sp/resources/set27/bass/2/Y_1981-15.wav
     A23: configs/2024sp/resources/set27/piano/2/C_1886-23.wav
     A24: configs/2024sp/resources/set27/guitar/2/Y_1981-43.wav
-    A25: configs/2024sp/resources/set27/residuals/2/C_1886-51.wav
+    A25: configs/2024sp/resources/set27/residuals/2/Y_1981-18.wav
     A26: configs/2024sp/resources/set27/drums/2/A_1928-32.wav
     A27: configs/2024sp/resources/set27/bass/2/A_1928-7.wav
     A28: configs/2024sp/resources/set27/piano/2/A_1928-33.wav
     A29: configs/2024sp/resources/set27/guitar/2/A_1928-26.wav
     A30: configs/2024sp/resources/set27/residuals/2/A_1928-7.wav
-    A31: configs/2024sp/resources/set27/drums/3/C_1985-9.wav
-    A32: configs/2024sp/resources/set27/bass/3/C_1985-29.wav
+    A31: configs/2024sp/resources/set27/drums/3/Y_2070-43.wav
+    A32: configs/2024sp/resources/set27/bass/3/Y_2070-29.wav
     A33: configs/2024sp/resources/set27/piano/3/C_1985-50.wav
-    A34: configs/2024sp/resources/set27/guitar/3/Y_2070-13.wav
+    A34: configs/2024sp/resources/set27/guitar/3/C_1985-38.wav
     A35: configs/2024sp/resources/set27/residuals/3/C_1985-11.wav
     A36: configs/2024sp/resources/set27/drums/3/A_2000-31.wav
     A37: configs/2024sp/resources/set27/bass/3/A_2000-21.wav
@@ -146,16 +148,16 @@ pages:
     B22: configs/2024sp/resources/set27/bass/2/C_1886-25.wav
     B23: configs/2024sp/resources/set27/piano/2/Y_1981-18.wav
     B24: configs/2024sp/resources/set27/guitar/2/C_1886-9.wav
-    B25: configs/2024sp/resources/set27/residuals/2/Y_1981-18.wav
+    B25: configs/2024sp/resources/set27/residuals/2/C_1886-51.wav
     B26: configs/2024sp/resources/set27/drums/2/B_1978-29.wav
     B27: configs/2024sp/resources/set27/bass/2/B_1978-54.wav
     B28: configs/2024sp/resources/set27/piano/2/B_1978-46.wav
     B29: configs/2024sp/resources/set27/guitar/2/B_1978-28.wav
     B30: configs/2024sp/resources/set27/residuals/2/B_1978-57.wav
-    B31: configs/2024sp/resources/set27/drums/3/Y_2070-43.wav
-    B32: configs/2024sp/resources/set27/bass/3/Y_2070-29.wav
+    B31: configs/2024sp/resources/set27/drums/3/C_1985-9.wav
+    B32: configs/2024sp/resources/set27/bass/3/C_1985-29.wav
     B33: configs/2024sp/resources/set27/piano/3/Y_2070-47.wav
-    B34: configs/2024sp/resources/set27/guitar/3/C_1985-38.wav
+    B34: configs/2024sp/resources/set27/guitar/3/Y_2070-13.wav
     B35: configs/2024sp/resources/set27/residuals/3/Y_2070-2.wav
     B36: configs/2024sp/resources/set27/drums/3/B_1904-24.wav
     B37: configs/2024sp/resources/set27/bass/3/B_1904-19.wav

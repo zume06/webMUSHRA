@@ -142,8 +142,10 @@ foreach ($session->trials as $trial) {
 		}  
 		array_push($results, $trial->id,$response->Reference,$response->SampleA,$response->SampleB, urlencode($response->answerTimbre), urlencode($response->answerRhythm), urlencode($response->answerMelody), urlencode($response->answerTotal), $response->time);
 	  
-	  	array_push($pcCsvData, $results); 
-		  
+	  	array_push($pcCsvData, $results);
+
+		$finishID = $trial->setno;
+		//echo $finishID;
 		  
 	    // array_push($pcCsvData, array($session->testId, $session->participant->email, $session->participant->age, $session->participant->gender, $trial->id, $response->reference, $response->nonReference, $response->answer, $response->time, $response->comment));    
 	  }
@@ -179,6 +181,7 @@ foreach ($session->trials as $trial) {
 
 if ($write_pc) {
 	$filename = $filepathPrefix."answer_results".$filepathPostfix;
+	//echo $filename;
 	$isFile = is_file($filename);
 	$fp = fopen($filename, 'a');
 	foreach ($pcCsvData as $row) {
@@ -189,6 +192,27 @@ if ($write_pc) {
 		}
 	}
 	fclose($fp);
+
+	$filename = $filepathPrefix."finish_no".$filepathPostfix;
+	//echo $filename;
+	$finishCsvData = array();
+	array_push($finishCsvData, strval($finishID));
+	//echo $finishCsvData;
+    $isFile = is_file($filename);
+	if (!file_exists($filename)){
+		$fp = fopen($filename, 'w');
+		fclose($file);
+	}
+	$fp = fopen($filename, 'a');
+	if ($fp) {
+		//echo "Opened file.";
+		$filename = chmod($filename, 0666);
+		print_r($finishCsvData);
+		fputcsv($fp, $finishCsvData);
+		fclose($fp);
+	} else {
+		echo "Failed to open file.";
+	}
 }
 
 // bs1116

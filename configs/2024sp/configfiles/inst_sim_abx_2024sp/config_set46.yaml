@@ -1,5 +1,6 @@
 testname: Instrumental Similarity ABX Test
 testId: inst_sim_abx_2024sp
+setno: 46
 bufferSize: 2048
 stopOnErrors: true
 showButtonPreviousPage: true
@@ -26,6 +27,7 @@ pages:
   stimulus: configs/2024sp/resources/samples/voleme_sample.wav
 - type: paired_comparison_changed
   id: ABX
+  setno: 46
   name: Instrumental Similarity Test
   content: '<li>3つの楽器音Reference,A,Bを順番に聴いてください。<br> <b>楽器音は全て必ず最後まで聞いてください。</b> </li>
     <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br>
@@ -79,10 +81,10 @@ pages:
     X41: configs/2024sp/resources/samples/dummyX1.wav
     X42: configs/2024sp/resources/samples/dummyX2.wav
   sampleA:
-    A1: configs/2024sp/resources/set46/drums/0/C_1968-27.wav
-    A2: configs/2024sp/resources/set46/bass/0/C_1968-3.wav
-    A3: configs/2024sp/resources/set46/piano/0/Y_1972-32.wav
-    A4: configs/2024sp/resources/set46/guitar/0/C_1968-14.wav
+    A1: configs/2024sp/resources/set46/drums/0/Y_1972-27.wav
+    A2: configs/2024sp/resources/set46/bass/0/Y_1972-22.wav
+    A3: configs/2024sp/resources/set46/piano/0/C_1968-13.wav
+    A4: configs/2024sp/resources/set46/guitar/0/Y_1972-54.wav
     A5: configs/2024sp/resources/set46/residuals/0/Y_1972-7.wav
     A6: configs/2024sp/resources/set46/drums/0/A_2008-12.wav
     A7: configs/2024sp/resources/set46/bass/0/A_2008-33.wav
@@ -90,30 +92,30 @@ pages:
     A9: configs/2024sp/resources/set46/guitar/0/A_2008-22.wav
     A10: configs/2024sp/resources/set46/residuals/0/A_2008-12.wav
     A11: configs/2024sp/resources/set46/drums/1/Y_2082-11.wav
-    A12: configs/2024sp/resources/set46/bass/1/Y_2082-8.wav
+    A12: configs/2024sp/resources/set46/bass/1/C_2030-42.wav
     A13: configs/2024sp/resources/set46/piano/1/Y_2082-19.wav
     A14: configs/2024sp/resources/set46/guitar/1/C_2030-43.wav
-    A15: configs/2024sp/resources/set46/residuals/1/C_2030-38.wav
+    A15: configs/2024sp/resources/set46/residuals/1/Y_2082-33.wav
     A16: configs/2024sp/resources/set46/drums/1/A_2086-11.wav
     A17: configs/2024sp/resources/set46/bass/1/A_2086-23.wav
     A18: configs/2024sp/resources/set46/piano/1/A_2086-31.wav
     A19: configs/2024sp/resources/set46/guitar/1/A_2086-41.wav
     A20: configs/2024sp/resources/set46/residuals/1/A_2086-16.wav
     A21: configs/2024sp/resources/set46/drums/2/Y_1928-6.wav
-    A22: configs/2024sp/resources/set46/bass/2/C_1902-19.wav
+    A22: configs/2024sp/resources/set46/bass/2/Y_1928-23.wav
     A23: configs/2024sp/resources/set46/piano/2/C_1902-26.wav
     A24: configs/2024sp/resources/set46/guitar/2/C_1902-15.wav
-    A25: configs/2024sp/resources/set46/residuals/2/C_1902-35.wav
+    A25: configs/2024sp/resources/set46/residuals/2/Y_1928-2.wav
     A26: configs/2024sp/resources/set46/drums/2/A_2031-56.wav
     A27: configs/2024sp/resources/set46/bass/2/A_2031-54.wav
     A28: configs/2024sp/resources/set46/piano/2/A_2031-54.wav
     A29: configs/2024sp/resources/set46/guitar/2/A_2031-34.wav
     A30: configs/2024sp/resources/set46/residuals/2/A_2031-3.wav
-    A31: configs/2024sp/resources/set46/drums/3/C_1950-37.wav
-    A32: configs/2024sp/resources/set46/bass/3/C_1950-41.wav
+    A31: configs/2024sp/resources/set46/drums/3/Y_2093-2.wav
+    A32: configs/2024sp/resources/set46/bass/3/Y_2093-27.wav
     A33: configs/2024sp/resources/set46/piano/3/C_1950-28.wav
     A34: configs/2024sp/resources/set46/guitar/3/C_1950-37.wav
-    A35: configs/2024sp/resources/set46/residuals/3/C_1950-41.wav
+    A35: configs/2024sp/resources/set46/residuals/3/Y_2093-43.wav
     A36: configs/2024sp/resources/set46/drums/3/A_1996-19.wav
     A37: configs/2024sp/resources/set46/bass/3/A_1996-2.wav
     A38: configs/2024sp/resources/set46/piano/3/A_1996-23.wav
@@ -122,10 +124,10 @@ pages:
     A41: configs/2024sp/resources/samples/dummyX1.wav
     A42: configs/2024sp/resources/samples/dummyA2.wav
   sampleB:
-    B1: configs/2024sp/resources/set46/drums/0/Y_1972-27.wav
-    B2: configs/2024sp/resources/set46/bass/0/Y_1972-22.wav
-    B3: configs/2024sp/resources/set46/piano/0/C_1968-13.wav
-    B4: configs/2024sp/resources/set46/guitar/0/Y_1972-54.wav
+    B1: configs/2024sp/resources/set46/drums/0/C_1968-27.wav
+    B2: configs/2024sp/resources/set46/bass/0/C_1968-3.wav
+    B3: configs/2024sp/resources/set46/piano/0/Y_1972-32.wav
+    B4: configs/2024sp/resources/set46/guitar/0/C_1968-14.wav
     B5: configs/2024sp/resources/set46/residuals/0/C_1968-16.wav
     B6: configs/2024sp/resources/set46/drums/0/B_2086-13.wav
     B7: configs/2024sp/resources/set46/bass/0/B_2086-6.wav
@@ -133,30 +135,30 @@ pages:
     B9: configs/2024sp/resources/set46/guitar/0/B_2086-26.wav
     B10: configs/2024sp/resources/set46/residuals/0/B_2086-16.wav
     B11: configs/2024sp/resources/set46/drums/1/C_2030-16.wav
-    B12: configs/2024sp/resources/set46/bass/1/C_2030-42.wav
+    B12: configs/2024sp/resources/set46/bass/1/Y_2082-8.wav
     B13: configs/2024sp/resources/set46/piano/1/C_2030-66.wav
     B14: configs/2024sp/resources/set46/guitar/1/Y_2082-3.wav
-    B15: configs/2024sp/resources/set46/residuals/1/Y_2082-33.wav
+    B15: configs/2024sp/resources/set46/residuals/1/C_2030-38.wav
     B16: configs/2024sp/resources/set46/drums/1/B_1907-37.wav
     B17: configs/2024sp/resources/set46/bass/1/B_1907-27.wav
     B18: configs/2024sp/resources/set46/piano/1/B_1907-8.wav
     B19: configs/2024sp/resources/set46/guitar/1/B_1907-26.wav
     B20: configs/2024sp/resources/set46/residuals/1/B_1907-19.wav
     B21: configs/2024sp/resources/set46/drums/2/C_1902-41.wav
-    B22: configs/2024sp/resources/set46/bass/2/Y_1928-23.wav
+    B22: configs/2024sp/resources/set46/bass/2/C_1902-19.wav
     B23: configs/2024sp/resources/set46/piano/2/Y_1928-9.wav
     B24: configs/2024sp/resources/set46/guitar/2/Y_1928-13.wav
-    B25: configs/2024sp/resources/set46/residuals/2/Y_1928-2.wav
+    B25: configs/2024sp/resources/set46/residuals/2/C_1902-35.wav
     B26: configs/2024sp/resources/set46/drums/2/B_2081-28.wav
     B27: configs/2024sp/resources/set46/bass/2/B_2081-17.wav
     B28: configs/2024sp/resources/set46/piano/2/B_2081-3.wav
     B29: configs/2024sp/resources/set46/guitar/2/B_2081-22.wav
     B30: configs/2024sp/resources/set46/residuals/2/B_2081-19.wav
-    B31: configs/2024sp/resources/set46/drums/3/Y_2093-2.wav
-    B32: configs/2024sp/resources/set46/bass/3/Y_2093-27.wav
+    B31: configs/2024sp/resources/set46/drums/3/C_1950-37.wav
+    B32: configs/2024sp/resources/set46/bass/3/C_1950-41.wav
     B33: configs/2024sp/resources/set46/piano/3/Y_2093-35.wav
     B34: configs/2024sp/resources/set46/guitar/3/Y_2093-6.wav
-    B35: configs/2024sp/resources/set46/residuals/3/Y_2093-43.wav
+    B35: configs/2024sp/resources/set46/residuals/3/C_1950-41.wav
     B36: configs/2024sp/resources/set46/drums/3/B_1893-37.wav
     B37: configs/2024sp/resources/set46/bass/3/B_1893-21.wav
     B38: configs/2024sp/resources/set46/piano/3/B_1893-14.wav
