@@ -39,17 +39,17 @@ for k in range(setnum):
                         A = dict_triplet[str(k)][str(l)]["test{}".format(test)][inst]["A"]["filename"]
                         B = dict_triplet[str(k)][str(l)]["test{}".format(test)][inst]["B"]["filename"]
                             
-                    references["X{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, X)
-                    samplesA["A{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, A)
-                    samplesB["B{}".format(count)]= "configs/2024sp/resources/set{}/{}/{}/{}".format(k, inst, l, B)
+                    references["X{}".format(count)]= "configs/2024sm/resources/set{}/{}/{}/{}".format(k, inst, l, X)
+                    samplesA["A{}".format(count)]= "configs/2024sm/resources/set{}/{}/{}/{}".format(k, inst, l, A)
+                    samplesB["B{}".format(count)]= "configs/2024sm/resources/set{}/{}/{}/{}".format(k, inst, l, B)
                     count = count + 1
-        references["X{}".format(count)]= "configs/2024sp/resources/samples/dummyX1.wav"
-        samplesA["A{}".format(count)]= "configs/2024sp/resources/samples/dummyX1.wav"
-        samplesB["B{}".format(count)]= "configs/2024sp/resources/samples/dummyB1.wav"
+        references["X{}".format(count)]= "configs/2024sm/resources/samples/dummyX1.wav"
+        samplesA["A{}".format(count)]= "configs/2024sm/resources/samples/dummyX1.wav"
+        samplesB["B{}".format(count)]= "configs/2024sm/resources/samples/dummyB1.wav"
         count = count + 1
-        references["X{}".format(count)]= "configs/2024sp/resources/samples/dummyX2.wav"
-        samplesA["A{}".format(count)]= "configs/2024sp/resources/samples/dummyA2.wav"
-        samplesB["B{}".format(count)]= "configs/2024sp/resources/samples/dummyX2.wav"
+        references["X{}".format(count)]= "configs/2024sm/resources/samples/dummyX2.wav"
+        samplesA["A{}".format(count)]= "configs/2024sm/resources/samples/dummyA2.wav"
+        samplesB["B{}".format(count)]= "configs/2024sm/resources/samples/dummyX2.wav"
 
             
         explain = '<li>3つの楽器音Reference,A,Bを順番に聴いてください。<br> <b>楽器音は全て必ず最後まで聞いてください。</b> </li> <li>その下に列挙された3つの要素（音色、リズム、メロディ）においてそれぞれ、<br> Referenceが<b>BよりA</b>に<b>強く近い</b>と感じる場合は<b>A+</b>を、<b>少し近い</b>と感じる場合は<b>A-</b>回答してください。<br> Referenceが<b>AよりB</b>に<b>強く近い</b>と感じる場合は<b>B+</b>を、<b>少し近い</b>と感じる場合は<b>B-</b>回答してください。<br> <b>再生した楽器音がその要素を持たない（例: ドラム音にメロディがない）場合は、N/Aを選択してください。</b><br> また、A,Bどちらも同じくらいReferenceと似ている/似ていない場合もN/Aを選択することができますが、<b>3つの要素全てにおいてN/Aという回答はできません</b>。<br> </li> <li> 総合的に判断してReferenceはAとBのどちらに近いかを、上記と同様に+と-を含めた4択から選択してください。<b>"総合"では真ん中は選択できません。</b></li> <li>選択を終えたら"Next"ボタンを押し、次の実験に進んで下さい。</li> <li><b>3つの楽器音全てを再生してから回答を選択しないとNextボタンは押せません。</b></li>'
@@ -82,7 +82,7 @@ for k in range(setnum):
                 "id": "vol",
                 "name": "音量調整",
                 "defaultVolume": 0.5,
-                "stimulus": "configs/2024sp/resources/samples/voleme_sample.wav",            
+                "stimulus": "configs/2024sm/resources/samples/voleme_sample.wav",            
                 },
                 {"type": "paired_comparison_changed",
                 "id": "ABX",
