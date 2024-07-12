@@ -38,6 +38,21 @@ def write_dict(sample_dict, name, track, elim_segs, thres=0.0001):
     sample_dict[setnum][tripletnum][testnum]["mix"][name]["index_e"] = index_e
     
     return sample_dict, inst_wav_cut, seg
+
+def only_write_dict(sample_dict, name, track, seg):
+    path = "/home/hashizume/nas03/assets/Dataset/slakh/cutwave/5s_on5.0/mix/wave{}_{}.npz".format(track, seg)
+    npz = np.load(path)
+    index_s = int(npz["index_s"])
+    index_e = int(npz["index_e"])
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]={}
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["ID"] = track
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["seg"] = seg
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["filename"] = "{}_{}-{}.wav".format(name, track, seg)
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["sr"] = 44100
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["index_s"] = index_s
+    sample_dict[setnum][tripletnum][testnum]["mix"][name]["index_e"] = index_e
+    
+    return sample_dict
     
 def save_audio(inst_wav_cut, setnum, tripletnum, name, track, seg, sr=44100):
     os.makedirs("./resources/set{}/mix/{}/".format(setnum, tripletnum), exist_ok=True)
@@ -77,10 +92,11 @@ for setnum in sample_dict:
                         segs_b.append(sample_dict[setnum][tripletnum][testnum][inst][sample]["seg"])
                         track_b = sample_dict[setnum][tripletnum][testnum][inst][sample]["ID"]
             sample_dict[setnum][tripletnum][testnum]["mix"] = {}
-            # for X
-            sample_dict, inst_wav_cut_x, seg_x = write_dict(sample_dict, "X", track_x, segs_x)
-            save_audio(inst_wav_cut_x, setnum, tripletnum, "X", track_x, seg_x)
             if testnum == "test1":
+                # for X
+                sample_dict, inst_wav_cut_x, seg_x = write_dict(sample_dict, "X", track_x, segs_x)
+                save_audio(inst_wav_cut_x, setnum, tripletnum, "X", track_x, seg_x)
+                segs_y.append(seg_x)
                 # for Y
                 sample_dict, inst_wav_cut_y, seg_y = write_dict(sample_dict, "Y", track_y, segs_y)
                 save_audio(inst_wav_cut_y, setnum, tripletnum, "Y", track_y, seg_y)
@@ -88,6 +104,8 @@ for setnum in sample_dict:
                 sample_dict, inst_wav_cut_c, seg_c = write_dict(sample_dict, "C", track_c, segs_c)
                 save_audio(inst_wav_cut_c, setnum, tripletnum, "C", track_c, seg_c)
             elif testnum == "test2":
+                # for X
+                sample_dict = only_write_dict(sample_dict, "X", track_x, seg_x)
                 # for A
                 sample_dict, inst_wav_cut_a, seg_a = write_dict(sample_dict, "A", track_a, segs_a)
                 save_audio(inst_wav_cut_a, setnum, tripletnum, "A", track_a, seg_a)

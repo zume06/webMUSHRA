@@ -43,151 +43,151 @@ pages:
     X3: configs/2024sm/resources/set21/piano/0/X_1963-23.wav
     X4: configs/2024sm/resources/set21/guitar/0/X_1963-33.wav
     X5: configs/2024sm/resources/set21/residuals/0/X_1963-22.wav
-    X6: configs/2024sm/resources/set21/mix/0/X_1963-9.wav
+    X6: configs/2024sm/resources/set21/mix/0/X_1963-7.wav
     X7: configs/2024sm/resources/set21/drums/0/X_1963-45.wav
     X8: configs/2024sm/resources/set21/bass/0/X_1963-39.wav
     X9: configs/2024sm/resources/set21/piano/0/X_1963-23.wav
     X10: configs/2024sm/resources/set21/guitar/0/X_1963-33.wav
     X11: configs/2024sm/resources/set21/residuals/0/X_1963-22.wav
-    X12: configs/2024sm/resources/set21/mix/0/X_1963-15.wav
+    X12: configs/2024sm/resources/set21/mix/0/X_1963-7.wav
     X13: configs/2024sm/resources/set21/drums/1/X_2004-18.wav
     X14: configs/2024sm/resources/set21/bass/1/X_2004-13.wav
     X15: configs/2024sm/resources/set21/piano/1/X_2004-8.wav
     X16: configs/2024sm/resources/set21/guitar/1/X_2004-7.wav
     X17: configs/2024sm/resources/set21/residuals/1/X_2004-1.wav
-    X18: configs/2024sm/resources/set21/mix/1/X_2004-4.wav
+    X18: configs/2024sm/resources/set21/mix/1/X_2004-9.wav
     X19: configs/2024sm/resources/set21/drums/1/X_2004-18.wav
     X20: configs/2024sm/resources/set21/bass/1/X_2004-13.wav
     X21: configs/2024sm/resources/set21/piano/1/X_2004-8.wav
     X22: configs/2024sm/resources/set21/guitar/1/X_2004-7.wav
     X23: configs/2024sm/resources/set21/residuals/1/X_2004-1.wav
-    X24: configs/2024sm/resources/set21/mix/1/X_2004-2.wav
+    X24: configs/2024sm/resources/set21/mix/1/X_2004-9.wav
     X25: configs/2024sm/resources/set21/drums/2/X_1955-38.wav
     X26: configs/2024sm/resources/set21/bass/2/X_1955-38.wav
     X27: configs/2024sm/resources/set21/piano/2/X_1955-46.wav
     X28: configs/2024sm/resources/set21/guitar/2/X_1955-1.wav
     X29: configs/2024sm/resources/set21/residuals/2/X_1955-45.wav
-    X30: configs/2024sm/resources/set21/mix/2/X_1955-34.wav
+    X30: configs/2024sm/resources/set21/mix/2/X_1955-48.wav
     X31: configs/2024sm/resources/set21/drums/2/X_1955-38.wav
     X32: configs/2024sm/resources/set21/bass/2/X_1955-38.wav
     X33: configs/2024sm/resources/set21/piano/2/X_1955-46.wav
     X34: configs/2024sm/resources/set21/guitar/2/X_1955-1.wav
     X35: configs/2024sm/resources/set21/residuals/2/X_1955-45.wav
-    X36: configs/2024sm/resources/set21/mix/2/X_1955-32.wav
+    X36: configs/2024sm/resources/set21/mix/2/X_1955-48.wav
     X37: configs/2024sm/resources/set21/drums/3/X_1994-14.wav
     X38: configs/2024sm/resources/set21/bass/3/X_1994-17.wav
     X39: configs/2024sm/resources/set21/piano/3/X_1994-8.wav
     X40: configs/2024sm/resources/set21/guitar/3/X_1994-8.wav
     X41: configs/2024sm/resources/set21/residuals/3/X_1994-15.wav
-    X42: configs/2024sm/resources/set21/mix/3/X_1994-38.wav
+    X42: configs/2024sm/resources/set21/mix/3/X_1994-21.wav
     X43: configs/2024sm/resources/set21/drums/3/X_1994-14.wav
     X44: configs/2024sm/resources/set21/bass/3/X_1994-17.wav
     X45: configs/2024sm/resources/set21/piano/3/X_1994-8.wav
     X46: configs/2024sm/resources/set21/guitar/3/X_1994-8.wav
     X47: configs/2024sm/resources/set21/residuals/3/X_1994-15.wav
-    X48: configs/2024sm/resources/set21/mix/3/X_1994-6.wav
+    X48: configs/2024sm/resources/set21/mix/3/X_1994-21.wav
     X49: configs/2024sm/resources/samples/dummyX1.wav
     X50: configs/2024sm/resources/samples/dummyX2.wav
   sampleA:
-    A1: configs/2024sm/resources/set21/drums/0/Y_1963-37.wav
-    A2: configs/2024sm/resources/set21/bass/0/C_2088-35.wav
+    A1: configs/2024sm/resources/set21/drums/0/C_2088-27.wav
+    A2: configs/2024sm/resources/set21/bass/0/Y_1963-25.wav
     A3: configs/2024sm/resources/set21/piano/0/Y_1963-22.wav
-    A4: configs/2024sm/resources/set21/guitar/0/Y_1963-32.wav
-    A5: configs/2024sm/resources/set21/residuals/0/Y_1963-19.wav
-    A6: configs/2024sm/resources/set21/mix/0/C_2088-21.wav
+    A4: configs/2024sm/resources/set21/guitar/0/C_2088-14.wav
+    A5: configs/2024sm/resources/set21/residuals/0/C_2088-39.wav
+    A6: configs/2024sm/resources/set21/mix/0/C_2088-10.wav
     A7: configs/2024sm/resources/set21/drums/0/A_2094-41.wav
     A8: configs/2024sm/resources/set21/bass/0/A_2094-12.wav
     A9: configs/2024sm/resources/set21/piano/0/A_2094-48.wav
     A10: configs/2024sm/resources/set21/guitar/0/A_2094-36.wav
     A11: configs/2024sm/resources/set21/residuals/0/A_2094-55.wav
-    A12: configs/2024sm/resources/set21/mix/0/A_2094-15.wav
+    A12: configs/2024sm/resources/set21/mix/0/A_2094-5.wav
     A13: configs/2024sm/resources/set21/drums/1/C_2053-22.wav
     A14: configs/2024sm/resources/set21/bass/1/C_2053-22.wav
-    A15: configs/2024sm/resources/set21/piano/1/Y_2004-31.wav
+    A15: configs/2024sm/resources/set21/piano/1/C_2053-35.wav
     A16: configs/2024sm/resources/set21/guitar/1/Y_2004-28.wav
-    A17: configs/2024sm/resources/set21/residuals/1/Y_2004-4.wav
-    A18: configs/2024sm/resources/set21/mix/1/C_2053-54.wav
+    A17: configs/2024sm/resources/set21/residuals/1/C_2053-46.wav
+    A18: configs/2024sm/resources/set21/mix/1/Y_2004-15.wav
     A19: configs/2024sm/resources/set21/drums/1/A_1974-25.wav
     A20: configs/2024sm/resources/set21/bass/1/A_1974-14.wav
     A21: configs/2024sm/resources/set21/piano/1/A_1974-5.wav
     A22: configs/2024sm/resources/set21/guitar/1/A_1974-18.wav
     A23: configs/2024sm/resources/set21/residuals/1/A_1974-7.wav
-    A24: configs/2024sm/resources/set21/mix/1/A_1974-12.wav
-    A25: configs/2024sm/resources/set21/drums/2/Y_1955-2.wav
-    A26: configs/2024sm/resources/set21/bass/2/Y_1955-28.wav
+    A24: configs/2024sm/resources/set21/mix/1/A_1974-11.wav
+    A25: configs/2024sm/resources/set21/drums/2/C_2049-8.wav
+    A26: configs/2024sm/resources/set21/bass/2/C_2049-13.wav
     A27: configs/2024sm/resources/set21/piano/2/Y_1955-25.wav
     A28: configs/2024sm/resources/set21/guitar/2/Y_1955-17.wav
-    A29: configs/2024sm/resources/set21/residuals/2/Y_1955-50.wav
-    A30: configs/2024sm/resources/set21/mix/2/Y_1955-14.wav
+    A29: configs/2024sm/resources/set21/residuals/2/C_2049-31.wav
+    A30: configs/2024sm/resources/set21/mix/2/Y_1955-1.wav
     A31: configs/2024sm/resources/set21/drums/2/A_1930-35.wav
     A32: configs/2024sm/resources/set21/bass/2/A_1930-18.wav
     A33: configs/2024sm/resources/set21/piano/2/A_1930-53.wav
     A34: configs/2024sm/resources/set21/guitar/2/A_1930-60.wav
     A35: configs/2024sm/resources/set21/residuals/2/A_1930-13.wav
-    A36: configs/2024sm/resources/set21/mix/2/A_1930-61.wav
-    A37: configs/2024sm/resources/set21/drums/3/C_2031-37.wav
-    A38: configs/2024sm/resources/set21/bass/3/C_2031-53.wav
+    A36: configs/2024sm/resources/set21/mix/2/A_1930-14.wav
+    A37: configs/2024sm/resources/set21/drums/3/Y_1994-2.wav
+    A38: configs/2024sm/resources/set21/bass/3/Y_1994-6.wav
     A39: configs/2024sm/resources/set21/piano/3/C_2031-15.wav
-    A40: configs/2024sm/resources/set21/guitar/3/C_2031-48.wav
-    A41: configs/2024sm/resources/set21/residuals/3/C_2031-52.wav
-    A42: configs/2024sm/resources/set21/mix/3/C_2031-6.wav
+    A40: configs/2024sm/resources/set21/guitar/3/Y_1994-16.wav
+    A41: configs/2024sm/resources/set21/residuals/3/Y_1994-26.wav
+    A42: configs/2024sm/resources/set21/mix/3/Y_1994-11.wav
     A43: configs/2024sm/resources/set21/drums/3/A_1955-21.wav
     A44: configs/2024sm/resources/set21/bass/3/A_1955-12.wav
     A45: configs/2024sm/resources/set21/piano/3/A_1955-49.wav
     A46: configs/2024sm/resources/set21/guitar/3/A_1955-49.wav
     A47: configs/2024sm/resources/set21/residuals/3/A_1955-34.wav
-    A48: configs/2024sm/resources/set21/mix/3/A_1955-30.wav
+    A48: configs/2024sm/resources/set21/mix/3/A_1955-15.wav
     A49: configs/2024sm/resources/samples/dummyX1.wav
     A50: configs/2024sm/resources/samples/dummyA2.wav
   sampleB:
-    B1: configs/2024sm/resources/set21/drums/0/C_2088-27.wav
-    B2: configs/2024sm/resources/set21/bass/0/Y_1963-25.wav
+    B1: configs/2024sm/resources/set21/drums/0/Y_1963-37.wav
+    B2: configs/2024sm/resources/set21/bass/0/C_2088-35.wav
     B3: configs/2024sm/resources/set21/piano/0/C_2088-30.wav
-    B4: configs/2024sm/resources/set21/guitar/0/C_2088-14.wav
-    B5: configs/2024sm/resources/set21/residuals/0/C_2088-39.wav
-    B6: configs/2024sm/resources/set21/mix/0/Y_1963-5.wav
+    B4: configs/2024sm/resources/set21/guitar/0/Y_1963-32.wav
+    B5: configs/2024sm/resources/set21/residuals/0/Y_1963-19.wav
+    B6: configs/2024sm/resources/set21/mix/0/Y_1963-30.wav
     B7: configs/2024sm/resources/set21/drums/0/B_1973-30.wav
     B8: configs/2024sm/resources/set21/bass/0/B_1973-21.wav
     B9: configs/2024sm/resources/set21/piano/0/B_1973-9.wav
     B10: configs/2024sm/resources/set21/guitar/0/B_1973-12.wav
     B11: configs/2024sm/resources/set21/residuals/0/B_1973-10.wav
-    B12: configs/2024sm/resources/set21/mix/0/B_1973-7.wav
+    B12: configs/2024sm/resources/set21/mix/0/B_1973-22.wav
     B13: configs/2024sm/resources/set21/drums/1/Y_2004-39.wav
     B14: configs/2024sm/resources/set21/bass/1/Y_2004-21.wav
-    B15: configs/2024sm/resources/set21/piano/1/C_2053-35.wav
+    B15: configs/2024sm/resources/set21/piano/1/Y_2004-31.wav
     B16: configs/2024sm/resources/set21/guitar/1/C_2053-10.wav
-    B17: configs/2024sm/resources/set21/residuals/1/C_2053-46.wav
-    B18: configs/2024sm/resources/set21/mix/1/Y_2004-35.wav
+    B17: configs/2024sm/resources/set21/residuals/1/Y_2004-4.wav
+    B18: configs/2024sm/resources/set21/mix/1/C_2053-34.wav
     B19: configs/2024sm/resources/set21/drums/1/B_1895-16.wav
     B20: configs/2024sm/resources/set21/bass/1/B_1895-18.wav
     B21: configs/2024sm/resources/set21/piano/1/B_1895-16.wav
     B22: configs/2024sm/resources/set21/guitar/1/B_1895-21.wav
     B23: configs/2024sm/resources/set21/residuals/1/B_1895-23.wav
-    B24: configs/2024sm/resources/set21/mix/1/B_1895-13.wav
-    B25: configs/2024sm/resources/set21/drums/2/C_2049-8.wav
-    B26: configs/2024sm/resources/set21/bass/2/C_2049-13.wav
+    B24: configs/2024sm/resources/set21/mix/1/B_1895-6.wav
+    B25: configs/2024sm/resources/set21/drums/2/Y_1955-2.wav
+    B26: configs/2024sm/resources/set21/bass/2/Y_1955-28.wav
     B27: configs/2024sm/resources/set21/piano/2/C_2049-6.wav
     B28: configs/2024sm/resources/set21/guitar/2/C_2049-20.wav
-    B29: configs/2024sm/resources/set21/residuals/2/C_2049-31.wav
-    B30: configs/2024sm/resources/set21/mix/2/C_2049-27.wav
+    B29: configs/2024sm/resources/set21/residuals/2/Y_1955-50.wav
+    B30: configs/2024sm/resources/set21/mix/2/C_2049-10.wav
     B31: configs/2024sm/resources/set21/drums/2/B_1887-21.wav
     B32: configs/2024sm/resources/set21/bass/2/B_1887-74.wav
     B33: configs/2024sm/resources/set21/piano/2/B_1887-20.wav
     B34: configs/2024sm/resources/set21/guitar/2/B_1887-49.wav
     B35: configs/2024sm/resources/set21/residuals/2/B_1887-24.wav
-    B36: configs/2024sm/resources/set21/mix/2/B_1887-19.wav
-    B37: configs/2024sm/resources/set21/drums/3/Y_1994-2.wav
-    B38: configs/2024sm/resources/set21/bass/3/Y_1994-6.wav
+    B36: configs/2024sm/resources/set21/mix/2/B_1887-52.wav
+    B37: configs/2024sm/resources/set21/drums/3/C_2031-37.wav
+    B38: configs/2024sm/resources/set21/bass/3/C_2031-53.wav
     B39: configs/2024sm/resources/set21/piano/3/Y_1994-36.wav
-    B40: configs/2024sm/resources/set21/guitar/3/Y_1994-16.wav
-    B41: configs/2024sm/resources/set21/residuals/3/Y_1994-26.wav
-    B42: configs/2024sm/resources/set21/mix/3/Y_1994-23.wav
+    B40: configs/2024sm/resources/set21/guitar/3/C_2031-48.wav
+    B41: configs/2024sm/resources/set21/residuals/3/C_2031-52.wav
+    B42: configs/2024sm/resources/set21/mix/3/C_2031-11.wav
     B43: configs/2024sm/resources/set21/drums/3/B_1881-72.wav
     B44: configs/2024sm/resources/set21/bass/3/B_1881-27.wav
     B45: configs/2024sm/resources/set21/piano/3/B_1881-14.wav
     B46: configs/2024sm/resources/set21/guitar/3/B_1881-40.wav
     B47: configs/2024sm/resources/set21/residuals/3/B_1881-33.wav
-    B48: configs/2024sm/resources/set21/mix/3/B_1881-70.wav
+    B48: configs/2024sm/resources/set21/mix/3/B_1881-9.wav
     B49: configs/2024sm/resources/samples/dummyB1.wav
     B50: configs/2024sm/resources/samples/dummyX2.wav
 - type: enquete
