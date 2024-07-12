@@ -6,6 +6,7 @@ builds/
 results/*
 !results/results_will_be_added_here.txt
 configs/2024sp/resources/*
+configs/2024sp/resources.zip
 
 #####=== Node ===#####
 
